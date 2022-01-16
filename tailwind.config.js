@@ -3,12 +3,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        pixe: ["Pixeboy", "sans-serif"],
-      },
-      colors: {
-        brochgreen: "#007241",
-        brochwhite: "#d4d2d8",
-        brochblack: "#2e2e2e",
+        sans: ["Pixeboy", "sans-serif"],
       },
       colors: {
         brochgreen: "#007241",
