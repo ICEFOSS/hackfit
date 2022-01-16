@@ -24,16 +24,9 @@ export default function Speaker_card(props) {
           <p className="text-3xl text-white font-normal pt-0">{props.designation}</p>
           <p className="text-base leading-relaxed text-white font-normal pt-2">{props.describe}</p>
           <div className="flex justify-start space-x-2 sm:pt-7">
-
-            <a href="#" className="text-white hover:text-gray-600">
-              {linkedin_svg}
-            </a>
-            <a href="#" className="text-white hover:text-gray-600">
-              {github_svg}
-            </a>
-            <a href="#" className="text-white hover:text-gray-600">
-              {twitter_svg}
-            </a>
+            <a href="#" className="text-white hover:text-gray-600">{linkedin_svg}</a>
+            <a href="#" className="text-white hover:text-gray-600">{github_svg}</a>
+            <a href="#" className="text-white hover:text-gray-600">{twitter_svg}</a>
           </div>
         </div>
       </div>
