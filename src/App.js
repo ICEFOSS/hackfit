@@ -1,8 +1,8 @@
-import Landing from "./components/landing";
+import Schedule from "./components/schedule";
 const App = () => {
   return (
     <div className="font-sans">
-      <Landing />
+      <Schedule />
     </div>
   );
 };
