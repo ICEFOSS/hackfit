@@ -5,7 +5,10 @@ const speakers = [
         "profile_img": "https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
         "name": "Saurabh",
         "designation": "CEO",
-        "describe": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        "describe": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "date": "12 Jan",
+        "time": "10:00 AM",
+        "session_link": "https://www.youtube.com"
     },
     {
         "profile_img": "https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
@@ -36,7 +39,7 @@ export default function Speaker() {
                     Speakers
                 </h1>
 
-                <div className="w-full bg-gray-800">
+                <div className="w-full bg-brochgreen">
                     <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-4 py-12">
                         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                             {
@@ -47,6 +50,9 @@ export default function Speaker() {
                                         name={speaker.name}
                                         designation={speaker.designation}
                                         describe={speaker.describe}
+                                        date={speaker.date}
+                                        time={speaker.time}
+                                        session_link={speaker.session_link}
                                     />
                                 ))
                             }
