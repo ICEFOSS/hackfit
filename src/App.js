@@ -1,5 +1,6 @@
 import Landing from "./components/landing";
 import Prize from "./components/prizes";
+import Prizes from "./components/Prize";
 import Nav from "./components/nav";
 const App = () => {
   return (
@@ -7,7 +8,8 @@ const App = () => {
       <Nav />
       <Landing />
       <Prize />
-    </div>
+      <Prizes />
+     </div>
   );
 };
 export default App;
