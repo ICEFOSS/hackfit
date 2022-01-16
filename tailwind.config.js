@@ -10,6 +10,9 @@ module.exports = {
         brochwhite: "#d4d2d8",
         brochblack: "#2e2e2e",
       },
+      backgroundImage: {
+        landingImage: "url('/src/assests/landing.svg')",
+      },
     },
   },
   plugins: [],
