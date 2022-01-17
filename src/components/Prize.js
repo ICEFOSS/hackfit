@@ -4,7 +4,7 @@ export default class Prize extends Component {
     return (
         <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-4 py-12">
           <div className="text-center pb-12">
-            <h1 className="font-bold mb-10 text-3xl md:text-4xl lg:text-7xl font-heading text-white">
+            <h1 className=" mb-10 text-3xl md:text-4xl lg:text-7xl font-heading text-white">
               prizes
             </h1>
           </div>
