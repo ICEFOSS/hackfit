@@ -9,7 +9,7 @@ export default class Prize extends Component {
             </h1>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-9">
-            <div className="transform w-full  bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col md:flex-row transition duration-500 hover:scale-105">
+            <div className="transform w-full  bg-brochblack rounded-lg shadow-lg overflow-hidden flex flex-col md:flex-row transition duration-500 hover:scale-105">
               <div className="w-full h-80">
                 <img
                   className="object-center sm-ml-28 ml-24 p-3 object-cover w-40"
@@ -20,7 +20,7 @@ export default class Prize extends Component {
                  <p className="text-center text-yellow-400 font-bold text-2xl">1st prize</p>
               </div>
             </div>
-            <div className="transform w-full bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col md:flex-row transition duration-500 hover:scale-105">
+            <div className="transform w-full bg-brochblack rounded-lg shadow-lg overflow-hidden flex flex-col md:flex-row transition duration-500 hover:scale-105">
               <div className="w-full h-80">
                 <img
                   className="object-center sm-ml-28 ml-24 p-3 object-cover w-40 "
@@ -31,7 +31,7 @@ export default class Prize extends Component {
                  <p className="text-center text-gray-400 font-bold text-2xl">2nd prize</p>
               </div>
             </div>
-            <div className="transform w-full bg-gray-800 rounded-lg  shadow-lg overflow-hidden flex flex-col md:flex-row transition duration-500 hover:scale-105">
+            <div className="transform w-full bg-brochblack rounded-lg  shadow-lg overflow-hidden flex flex-col md:flex-row transition duration-500 hover:scale-105">
               <div className="w-full h-80">
                 <img
                   className="object-center sm-ml-28 ml-24 p-3 object-cover w-40"
