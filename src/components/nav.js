@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCoffee } from "@fortawesome/free-solid-svg-icons";
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(window.innerWidth <= 640 ? false : true);
   return (
@@ -111,10 +113,16 @@ const SideNav1 = () => {
     },
   ];
   return (
-    <div className="flex justify-start items-center h-screen z-1000 fixed">
+    <div className="flex justify-start items-center h-screen z-1000 fixed ml-1">
       <div className="h-42 grid grid-row-8 justify-items-center bg-brochblack px-4 opacity-100 rounded-tr-3xl rounded-br-3xl">
         {Heading.map((items) => (
-          <div className="py-6">{items.name}</div>
+          <div className="py-6 flex justify-center items-center">
+            <div>{items.name}</div>
+            <FontAwesomeIcon
+              className="flex justify-center items-center"
+              icon={faCoffee}
+            />
+          </div>
         ))}
       </div>
     </div>
