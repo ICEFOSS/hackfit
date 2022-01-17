@@ -2,17 +2,17 @@ export default function Schedule() {
   return (
     <section>
       <div className="bg-brochgreen text-white py-8">
-      <h1 class="mx-6 mt-1 font-pixe text-center text-white text-5xl md:text-6xl sm:text-center sm:mx-0">Schedule</h1>
+        <h1 className="mx-6 mt-1 font-pixe text-center text-white text-5xl md:text-6xl sm:text-center sm:mx-0">Schedule</h1>
         <div className="container mx-auto flex flex-col justify-center items-start md:flex-row my-12 md:my-24">
           <div className="ml-0 md:ml-12 lg:w-2/3 sticky">
             <div className="container mx-auto w-full h-full">
               <div className="relative wrap overflow-hidden p-10 h-full">
                 <div
                   className="border-2-2 border-yellow-555 absolute h-full border"
-                  style={{right: '50%', border: '2px solid #FFC100', borderRadius: '1%'}}></div>
+                  style={{ right: '50%', border: '2px solid #FFC100', borderRadius: '1%' }}></div>
                 <div
                   className="border-2-2 border-yellow-555 absolute h-full border"
-                  style={{left: '50%', border: '2px solid #FFC100', borderRadius: '1%'}}
+                  style={{ left: '50%', border: '2px solid #FFC100', borderRadius: '1%' }}
                 ></div>
                 <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
                   <div className="order-1 w-5/12"></div>
