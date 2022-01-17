@@ -83,7 +83,7 @@ const Nav = () => {
     </nav>
   );
 };
-const sideNav = () => {
+const SideNav1 = () => {
   const Heading = [
     {
       name: "About",
@@ -111,8 +111,8 @@ const sideNav = () => {
     },
   ];
   return (
-    <div className="flex justify-start">
-      <div className="grid grid-row-8 justify-items-center fixed bg-brochblack px-4 opacity-75 hover:opacity-100 rounded-tr-3xl rounded-br-3xl">
+    <div className="flex justify-start items-center h-screen z-1000 fixed">
+      <div className="h-42 grid grid-row-8 justify-items-center bg-brochblack px-4 opacity-100 rounded-tr-3xl rounded-br-3xl">
         {Heading.map((items) => (
           <div className="py-6">{items.name}</div>
         ))}
@@ -120,4 +120,4 @@ const sideNav = () => {
     </div>
   );
 };
-export default sideNav;
+export default SideNav1;
