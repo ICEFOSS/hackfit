@@ -13,7 +13,7 @@ export default function Landing() {
             suscipit fugiat molestias, veniam, vel architecto veritatis delectus
             repellat modi impedit sequi.
           </p>
-          <button class="inline-block mt-10 px-10 py-3 bg-red-500 text-lg text-white font-semibold">
+          <button class="inline-block mt-10 px-10 py-3 bg-red-500 text-lg text-white">
             REGISTER NOW
           </button>
         </div>

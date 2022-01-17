@@ -4,7 +4,7 @@ export default function Supported() {
       <h1 class="mx-6 font-pixe text-center text-white text-5xl md:text-6xl sm:text-center sm:mx-0">
         Suppoters
       </h1>
-      <div className="mt-16 justify-center  flex flex-wrap -mx-1 lg:-mx-0">
+      <div className="mt-16 justify-center text-black flex flex-wrap -mx-1 lg:-mx-0">
         <div className="my-1 px-1 w-full md:w-1/4 lg:my-4 lg:px-4 lg:w-1/5">
           <a class="relative block group h-96">
             <span class="absolute inset-0 border-2 border-white border-dashed"></span>
