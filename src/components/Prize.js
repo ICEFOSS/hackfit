@@ -24,35 +24,35 @@ export default class Prize extends Component {
               </p>
             </div>
           </div>
-        </div>
-        <div className="transform w-full bg-brochblack rounded-lg shadow-lg overflow-hidden flex flex-col md:flex-row transition duration-500 hover:scale-105">
-          <div className="w-full h-80">
-            <img
-              className="object-center sm-ml-28 ml-24 p-3 object-cover w-40 "
-              src="../silver-cup.gif"
-              alt="placeholder"
-            ></img>
-            <p className="text-center text-white font-bold text-5xl p-2">
-              7000 <span className="text-green-600">$</span>
-            </p>
-            <p className="text-center text-gray-400 font-bold text-2xl">
-              2nd prize
-            </p>
+          <div className="transform w-full bg-brochblack rounded-lg shadow-lg overflow-hidden flex flex-col md:flex-row transition duration-500 hover:scale-105">
+            <div className="w-full h-80">
+              <img
+                className="object-center sm-ml-28 ml-24 p-3 object-cover w-40 "
+                src="../silver-cup.gif"
+                alt="placeholder"
+              ></img>
+              <p className="text-center text-white font-bold text-5xl p-2">
+                7000 <span className="text-green-600">$</span>
+              </p>
+              <p className="text-center text-gray-400 font-bold text-2xl">
+                2nd prize
+              </p>
+            </div>
           </div>
-        </div>
-        <div className="transform w-full bg-brochblack rounded-lg  shadow-lg overflow-hidden flex flex-col md:flex-row transition duration-500 hover:scale-105">
-          <div className="w-full h-80">
-            <img
-              className="object-center sm-ml-28 ml-24 p-3 object-cover w-40"
-              src="../bronze-cup.gif"
-              alt="placeholder"
-            ></img>
-            <p className="text-center text-white font-bold text-5xl p-2">
-              5000 <span className="text-green-600">$</span>
-            </p>
-            <p className="text-center text-amber-800 font-bold text-2xl">
-              3rd prize
-            </p>
+          <div className="transform w-full bg-brochblack rounded-lg  shadow-lg overflow-hidden flex flex-col md:flex-row transition duration-500 hover:scale-105">
+            <div className="w-full h-80">
+              <img
+                className="object-center sm-ml-28 ml-24 p-3 object-cover w-40"
+                src="../bronze-cup.gif"
+                alt="placeholder"
+              ></img>
+              <p className="text-center text-white font-bold text-5xl p-2">
+                5000 <span className="text-green-600">$</span>
+              </p>
+              <p className="text-center text-amber-800 font-bold text-2xl">
+                3rd prize
+              </p>
+            </div>
           </div>
         </div>
       </section>
