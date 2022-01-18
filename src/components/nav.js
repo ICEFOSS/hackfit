@@ -80,12 +80,12 @@ const SidenavPage = () => {
 /* Sidenav logic */
 
 const style = {
-  item: `flex justify-center items-center cursor-pointer font-medium hover:text-gray-400 ml-8 mb-10`,
+  item: `flex justify-center items-center cursor-pointer font-medium hover:underline ml-8 mb-10`,
   closeIcon: `absolute top-1 focus:outline-none right-3 text-3xl text-white cursor-pointer`,
   sidenav: {
     open: `w-screen md:w-60 bg-brochblack text-white overflow-x-hidden`,
     close: `w-0 bg-gray-800 text-white overflow-x-hidden`,
-    default: `h-screen fixed z-20 top-0 left-0 transition-all ease duration-200`,
+    default: `flex items-center justify-center h-screen fixed z-20 top-0 left-0 transition-all ease duration-200 md:rounded-tr-3xl md:rounded-br-3xl`,
   },
 };
 
@@ -126,75 +126,4 @@ function SidenavItem({ children, href }) {
   );
 }
 
-const SideNav1 = () => {
-  const [isOpen, setIsOpen] = useState(window.innerWidth <= 640 ? false : true);
-  const Heading = [
-    {
-      name: "About",
-    },
-    {
-      name: "Supportors",
-    },
-    {
-      name: "Prizes",
-    },
-    {
-      name: "Speakers",
-    },
-    {
-      name: "Schedule",
-    },
-    {
-      name: "Mentors",
-    },
-    {
-      name: "Sponsors",
-    },
-    {
-      name: "FAQ",
-    },
-  ];
-  return (
-    <div className="">
-      <button
-        className="bg-red block lg:hidden fixed h-4 w-4"
-        onClick={() => setIsOpen(!isOpen)}
-      >
-        <div className="">
-          <FontAwesomeIcon
-            className="flex justify-center items-center"
-            icon={faBars}
-          />
-        </div>
-      </button>
-      {isOpen ? (
-        <div>
-          <div className="flex justify-start items-center z-1000 fixed h-screen">
-            <div className="h-42 grid grid-row-8 justify-items-center bg-brochblack px-4 opacity-100 w-screen rounded-3xl md:w-fit">
-              {Heading.map((items, key) => (
-                <div
-                  className="py-6 flex justify-center items-center"
-                  key={key}
-                >
-                  <a
-                    href="localhost:3000"
-                    className="hover:underline active:underline"
-                  >
-                    {items.name}
-                  </a>
-                  <FontAwesomeIcon
-                    className="flex justify-center items-center"
-                    icon={faBars}
-                  />
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      ) : (
-        ""
-      )}
-    </div>
-  );
-};
 export default SidenavPage;
