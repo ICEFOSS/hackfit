@@ -1,0 +1,35 @@
+.hover-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  width: inherit;
+  height: inherit;
+}
+
+.hover-overlay:hover {
+  background-color: sienna;
+  opacity: 1;
+}
+.main-test {
+  background-size: cover;
+  width: 11rem;
+  height: 11rem;
+  border-radius: 9999px;
+  color: transparent;
+}
+.main-test:hover,
+.main-test:focus,
+.main-test:active {
+  background-image: none !important;
+  background-color: #2e2e2e;
+  color: white;
+}
+@media (max-width: 479px) {
+  .main-test {
+    height: 10rem;
+    width: 9rem;
+    font-weight: 500;
+    overflow: hidden;
+  }
+}
