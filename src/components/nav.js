@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCoffee } from "@fortawesome/free-solid-svg-icons";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 const SidenavPage = () => {
   const Heading = [
     {
@@ -48,9 +48,12 @@ const SidenavPage = () => {
         aria-disabled={open}
         disabled={open}
         onClick={toggle}
-        className="text-white focus:outline-none m-1.5 rounded px-6 py-2 font-medium bg-brochblack"
+        className="text-white focus:outline-none m-1.5 rounded px-6 py-2 font-medium bg-brochblack fixed"
       >
-        Click to open me
+        <FontAwesomeIcon
+          className="flex justify-center items-center"
+          icon={faBars}
+        />
       </button>
       <Sidenav open={open} toggle={toggle}>
         {Heading.map((item, key) => (
@@ -77,7 +80,7 @@ const SidenavPage = () => {
 /* Sidenav logic */
 
 const style = {
-  item: `flex justify-start cursor-pointer font-medium hover:text-gray-400 ml-8 mb-10`,
+  item: `flex justify-center items-center cursor-pointer font-medium hover:text-gray-400 ml-8 mb-10`,
   closeIcon: `absolute top-1 focus:outline-none right-3 text-3xl text-white cursor-pointer`,
   sidenav: {
     open: `w-screen md:w-60 bg-brochblack text-white overflow-x-hidden`,
@@ -160,7 +163,7 @@ const SideNav1 = () => {
         <div className="">
           <FontAwesomeIcon
             className="flex justify-center items-center"
-            icon={faCoffee}
+            icon={faBars}
           />
         </div>
       </button>
@@ -181,7 +184,7 @@ const SideNav1 = () => {
                   </a>
                   <FontAwesomeIcon
                     className="flex justify-center items-center"
-                    icon={faCoffee}
+                    icon={faBars}
                   />
                 </div>
               ))}
