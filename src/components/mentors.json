@@ -1,34 +1,65 @@
 [
-    {
-      "key": 1,
-      "image": "https://plchldr.co/i/500x250",
-      "name": "Visrutha Arunthathi",
-      "post": "Chairman",
-      "mobile": "+91 94954 97126",
-      "linkedin": ""
-    },
-    {
-      "key": 2,
-      "image":"https://plchldr.co/i/500x250",
-      "name": "Naveen Jacob",
-      "post": "Vice Chairman",
-      "mobile": "+91 86063 30293",
-      "linkedin": "https://www.linkedin.com/in/naveen-b-jacob-229a81182/"
-    },
-    {
-      "key": 3,
-      "image": "https://plchldr.co/i/500x250",
-      "name": "Navaneetha Murali",
-      "post": "Secretary",
-      "mobile": "+91 83040 07340",
-      "linkedin": "https://www.linkedin.com/in/m-n-760b8276/"
-    },
-    {
-      "key": 4,
-      "image": "/images/kajalann.jpeg",
-      "name": "Kajal Anna Koshy",
-      "post": "Treasurer",
-      "mobile": "+91 90619 11103",
-      "linkedin": "https://www.linkedin.com/in/kajalannakoshy/"
-    }
-  ]
+  {
+    "key": 1,
+    "image": "https://plchldr.co/i/500x250",
+    "name": "Visrutha Arunthathi",
+    "post": "Chairman",
+    "linkedin": ""
+  },
+  {
+    "key": 2,
+    "image": "https://plchldr.co/i/500x250",
+    "name": "Naveen Jacob",
+    "post": "Vice Chairman",
+    "linkedin": "https://www.linkedin.com/in/naveen-b-jacob-229a81182/"
+  },
+  {
+    "key": 3,
+    "image": "https://plchldr.co/i/500x250",
+    "name": "Navaneetha Murali",
+    "post": "Secretary",
+    "linkedin": "https://www.linkedin.com/in/m-n-760b8276/"
+  },
+  {
+    "key": 1,
+    "image": "https://plchldr.co/i/500x250",
+    "name": "Visrutha Arunthathi",
+    "post": "Chairman",
+    "linkedin": ""
+  },
+  {
+    "key": 2,
+    "image": "https://plchldr.co/i/500x250",
+    "name": "Naveen Jacob",
+    "post": "Vice Chairman",
+    "linkedin": "https://www.linkedin.com/in/naveen-b-jacob-229a81182/"
+  },
+  {
+    "key": 3,
+    "image": "https://plchldr.co/i/500x250",
+    "name": "Navaneetha Murali",
+    "post": "Secretary",
+    "linkedin": "https://www.linkedin.com/in/m-n-760b8276/"
+  },
+  {
+    "key": 1,
+    "image": "https://plchldr.co/i/500x250",
+    "name": "Visrutha Arunthathi",
+    "post": "Chairman",
+    "linkedin": ""
+  },
+  {
+    "key": 2,
+    "image": "https://plchldr.co/i/500x250",
+    "name": "Naveen Jacob",
+    "post": "Vice Chairman",
+    "linkedin": "https://www.linkedin.com/in/naveen-b-jacob-229a81182/"
+  },
+  {
+    "key": 3,
+    "image": "https://plchldr.co/i/500x250",
+    "name": "Navaneetha Murali",
+    "post": "Secretary",
+    "linkedin": "https://www.linkedin.com/in/m-n-760b8276/"
+  }
+]
