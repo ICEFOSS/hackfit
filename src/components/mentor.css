@@ -1,0 +1,58 @@
+.hover-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  width: inherit;
+  height: inherit;
+}
+
+.hover-overlay:hover {
+  background-color: sienna;
+  opacity: 1;
+}
+.main-test {
+  background-size: cover;
+  width: 11rem;
+  height: 11rem;
+  border-radius: 9999px;
+  color: transparent;
+}
+.main-test:hover,
+.main-test:focus,
+.main-test:active {
+  background-image: none !important;
+  background-color: #2e2e2e;
+  color: white;
+  position: relative;
+}
+.main-test-opposite ,
+.main-test-opposite:hover,
+.main-test-opposite:active,
+ .main-test-opposite:focus
+{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	top: 0;	
+ padding-top: 6em;
+  background-size: cover;
+  width: 11rem;
+  height: 11rem;
+  border-radius: 9999px;
+}
+/* #content:last-child{
+display:none;
+} */
+/* .main-test-opposite:last-child{
+  display: none;
+} */
+@media (max-width: 479px) {
+  .main-test {
+    height: 10rem;
+    width: 10rem;
+    font-weight: 500;
+    overflow: hidden;
+  }
+}
