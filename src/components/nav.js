@@ -59,6 +59,7 @@ const SidenavPage = () => {
         {Heading.map((item, key) => (
           <SidenavItem href="#" key={key}>
             <svg
+              className="flex justify-center items-center"
               stroke="currentColor"
               fill="currentColor"
               strokeWidth="0"
@@ -69,7 +70,9 @@ const SidenavPage = () => {
             >
               <path d={item.icon} />
             </svg>
-            <span className="pl-2">{item.name}</span>
+            <span className="flex items-center justify-center">
+              {item.name}
+            </span>
           </SidenavItem>
         ))}
       </Sidenav>
@@ -80,12 +83,12 @@ const SidenavPage = () => {
 /* Sidenav logic */
 
 const style = {
-  item: `flex justify-center items-center cursor-pointer font-medium hover:underline mb-10`,
+  item: `flex flex-col justify-center items-center cursor-pointer text-2xl hover:underline mb-10 w-full`,
   closeIcon: `absolute top-1 focus:outline-none right-3 text-3xl text-white cursor-pointer md:hidden`,
   sidenav: {
     open: `w-screen md:w-36 bg-brochblack text-white overflow-x-hidden`,
     close: `w-0 bg-brochblack text-white overflow-x-hidden md:w-36`,
-    default: `md:mt-36 flex items-center justify-center h-screen md:h-3/4 fixed z-20 top-0 left-0 transition-all ease duration-200 md:rounded-tr-3xl md:rounded-br-3xl`,
+    default: `md:mt-36 md:ml-1 flex items-center justify-center h-screen md:h-3/4 fixed z-20 top-0 left-0 transition-all ease duration-200 md:rounded-tr-3xl md:rounded-br-3xl`,
   },
 };
 
@@ -114,7 +117,7 @@ function Sidenav({ open, toggle, children }) {
         <button aria-label="Close" className={style.closeIcon} onClick={toggle}>
           &times;
         </button>
-        <div className="mt-12">{children}</div>
+        <div className="">{children}</div>
       </aside>
     </div>
   );
