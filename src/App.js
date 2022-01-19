@@ -5,7 +5,7 @@ import Speaker from "./components/speaker";
 import Faq from "./components/faq";
 import Supported from "./components/supported";
 import Mentor from './components/mentor'
-
+import Sponsors from "./components/sponsors";
 import Schedule from "./components/schedule";
 const App = () => {
   return (
@@ -18,6 +18,7 @@ const App = () => {
       <Prizes />
       <Schedule />
       <Mentor />
+      <Speaker />
       <Faq />
     </div>
   );
