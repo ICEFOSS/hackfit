@@ -5,6 +5,7 @@ import Speaker from "./components/speaker";
 import Faq from "./components/faq";
 import Supported from "./components/supported";
 import Schedule from "./components/schedule";
+import Sponsors from "./components/sponsors";
 const App = () => {
   return (
     <div className="font-sans text-white bg-brochgreen">
@@ -15,6 +16,7 @@ const App = () => {
       <Supported />
       <Prizes />
       <Schedule />
+      <Sponsors />
       <Faq />
     </div>
   );
