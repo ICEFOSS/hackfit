@@ -12,13 +12,14 @@ export default class Mentor extends Component {
         <div className="py-4 lg:flex flex-wrap">
           {/*Acm directives contact*/}
           <div className="flex justify-center item-center w-full">
-            <h1 className="text-2xl my-5">Contact Us</h1>
+            <h1 className="text-5xl my-5 ">Contact Us</h1>
           </div>
           <div className="justify-center sm:flex-no-wrap md:flex-wrap lg:w-full flex flex-row flex-wrap">
             {Present.map((item) => (
-              <pre className="py-2" key={item.key}>
+
+              <div className="py-2"  key={item.key}>
                 <div
-                  className="flex px-4 mx-4 flex-col text-center justify-between h-full w-full main-test"
+                  className="flex px-4 mx-4 flex-col text-center justify-between h-full w-full main-test "
                   style={{
                     backgroundImage: `url(${image})`,
                   }}
@@ -27,9 +28,9 @@ export default class Mentor extends Component {
                     <p className="mt-8 font-bold name">{item.name}</p>
                     <p className="mt-2">{item.post}</p>
                   </div>
-                  <div className="mb-5 font-light">
+                  <div className="mb-5 font-light" >
                     <div className="flex justify-center  main-test-opposite">
-                      <a href={item.linkedin} target="__blank" >
+                      <a href={item.linkedin} target="__blank">
                         {linkedin_svg}
                       </a>
                       <a href={item.linkedin} target="__blank">
@@ -40,7 +41,7 @@ export default class Mentor extends Component {
                   </div>
 
                 </div>
-              </pre>
+              </div>
             ))}
           </div>
         </div>
