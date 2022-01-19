@@ -51,7 +51,7 @@ display:none;
 @media (max-width: 479px) {
   .main-test {
     height: 10rem;
-    width: 9rem;
+    width: 10rem;
     font-weight: 500;
     overflow: hidden;
   }

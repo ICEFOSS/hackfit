@@ -14,7 +14,7 @@ export default class Mentor extends Component {
           <div className="flex justify-center item-center w-full">
             <h1 className="text-5xl my-5 ">Contact Us</h1>
           </div>
-          <div className="justify-center sm:flex-no-wrap md:flex-wrap lg:w-full flex flex-row flex-wrap">
+          <div className="grid justify-center m-auto md:grid-cols-3 sm:grid-cols-1  gap-14">
             {Present.map((item) => (
 
               <div className="py-2"  key={item.key}>
