@@ -17,7 +17,6 @@ const App = () => {
       <Prizes />
       <Schedule />
       <Mentor />
-      <Speaker />
       <Faq />
     </div>
   );
