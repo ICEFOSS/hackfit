@@ -48,7 +48,7 @@ const SidenavPage = () => {
         aria-disabled={open}
         disabled={open}
         onClick={toggle}
-        className="text-white focus:outline-none m-1.5 rounded px-6 py-2 font-medium bg-brochblack fixed"
+        className="text-white focus:outline-none m-1.5 rounded px-6 py-2 font-medium bg-brochblack fixed block md:hidden"
       >
         <FontAwesomeIcon
           className="flex justify-center items-center"
@@ -80,11 +80,11 @@ const SidenavPage = () => {
 /* Sidenav logic */
 
 const style = {
-  item: `flex justify-center items-center cursor-pointer font-medium hover:underline ml-8 mb-10`,
-  closeIcon: `absolute top-1 focus:outline-none right-3 text-3xl text-white cursor-pointer`,
+  item: `flex justify-center items-center flex-col cursor-pointer font-medium hover:underline ml-8 mb-10 hover:border-2 hover:rounded`,
+  closeIcon: `absolute top-1 focus:outline-none right-3 text-3xl text-white cursor-pointer block md:hidden`,
   sidenav: {
-    open: `w-screen md:w-60 bg-brochblack text-white overflow-x-hidden`,
-    close: `w-0 bg-gray-800 text-white overflow-x-hidden`,
+    open: `w-screen bg-brochblack text-white overflow-x-hidden md:w-[8.99rem]`,
+    close: `w-0 bg-brochblack text-white overflow-x-hidden md:w-[8.99rem]`,
     default: `flex items-center justify-center h-screen fixed z-20 top-0 left-0 transition-all ease duration-200 md:rounded-tr-3xl md:rounded-br-3xl`,
   },
 };

@@ -6,6 +6,7 @@ import Faq from "./components/faq";
 import Supported from "./components/supported";
 import Mentor from './components/mentor'
 import Schedule from "./components/schedule";
+import Sponsors from "./components/sponsors";
 const App = () => {
   return (
     <div className="font-sans text-white bg-brochgreen">
@@ -17,6 +18,7 @@ const App = () => {
       <Prizes />
       <Schedule />
       <Mentor />
+      <Sponsors />
       <Faq />
     </div>
   );
