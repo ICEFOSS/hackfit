@@ -1,16 +1,16 @@
 export default function Sponsor_card(props) {
   return (
-    <>
-      <div className="w-8/12 sm:min-w-10 place-self-center">
+    <section className="col-span-12 md:col-span-6 lg:col-span-4 mx-5">
+      <div className="w-full sm:min-w-10">
         <a href={props.url}>
           <img
-            className="object-center object-cover w-3/4 mx-8"
+            className="object-center object-cover w-full mx-8"
             src={props.logo}
             alt="photo"
           />
         </a>
       </div>
-    </>
+    </section>
   );
 }
 const all_sponsors_names = ["Diamond", "Gold", "Platinum"];
@@ -26,8 +26,8 @@ export function Sponsor_each_section(props) {
           {all_sponsors_names[props.sponsor_index]} Sponsors
         </h2>
         <div className="w-full bg-brochgreen">
-          <section className="max-w-sm md:max-w-2xl lg:max-w-5xl mx-auto px-4 py-12">
-            <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid-rows-1 gap-x-1 gap-y-6 sm:gap-y-10 md:gap-y-16">
+          <section className="max-w-sm md:max-w-2xl lg:max-w-3xl mx-auto px-4 py-12">
+            <div className="flex flex-row flex-wrap gap-y-6 sm:gap-y-10 md:gap-y-16 justify-start md:justify-evenly">
               {all_sponsors[props.sponsor_index].map((sponsor, ind) => (
                 <Sponsor_card
                   key={sponsor.name + ind}
