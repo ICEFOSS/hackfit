@@ -2,17 +2,17 @@ import React, { Component } from "react";
 export default class Prize extends Component {
   render() {
     return (
-      <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-4 py-12">
+      <section className="max-w-6xl mx-auto px-14 sm:px-6 lg:px-4 py-12">
         <div className="text-center pb-12">
-          <h1 className=" mb-10 text-3xl md:text-4xl lg:text-7xl font-heading text-white">
+          <h1 className="text-3xl md:text-4xl lg:text-7xl font-heading text-white">
             prizes
           </h1>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-9">
-          <div className="transform w-full  bg-brochblack rounded-lg shadow-lg overflow-hidden flex flex-col md:flex-row transition duration-500 hover:scale-105">
+          <div className="transform w-full sm:max-w-1/4  bg-brochblack rounded-lg shadow-lg overflow-hidden flex flex-col md:flex-row transition duration-500 hover:scale-105">
             <div className="w-full h-80">
               <img
-                className="object-center sm-ml-28 ml-24 p-3 object-cover w-40"
+                className="p-3 w-40 mx-auto"
                 src="../gold-cup.gif"
                 alt="placholder"
               ></img>
@@ -27,7 +27,7 @@ export default class Prize extends Component {
           <div className="transform w-full bg-brochblack rounded-lg shadow-lg overflow-hidden flex flex-col md:flex-row transition duration-500 hover:scale-105">
             <div className="w-full h-80">
               <img
-                className="object-center sm-ml-28 ml-24 p-3 object-cover w-40 "
+                className="p-3 w-40 mx-auto"
                 src="../silver-cup.gif"
                 alt="placeholder"
               ></img>
@@ -42,7 +42,7 @@ export default class Prize extends Component {
           <div className="transform w-full bg-brochblack rounded-lg  shadow-lg overflow-hidden flex flex-col md:flex-row transition duration-500 hover:scale-105">
             <div className="w-full h-80">
               <img
-                className="object-center sm-ml-28 ml-24 p-3 object-cover w-40"
+                className="p-3 w-40 mx-auto"
                 src="../bronze-cup.gif"
                 alt="placeholder"
               ></img>
