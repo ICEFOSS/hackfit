@@ -1,3 +1,45 @@
+export default function Speaker_card(props) {
+  return (
+    <>
+      <div className="w-full bg-brochwhite rounded-lg sahdow-lg overflow-hidden flex flex-col md:flex-row ">
+        <div className="w-full md:w-2/5 h-80">
+          <img
+            className="object-center object-cover w-full h-full"
+            src={props.profile_img}
+            alt="photo"
+          ></img>
+        </div>
+        <div className="w-full md:w-3/5 text-left p-4 md:p-4 space-y-2">
+          <p className="text-5xl text-black font-bold pt-4">{props.name}</p>
+          <p className="text-3xl text-black font-normal pt-0">
+            {props.designation}
+          </p>
+          <p className="text-base leading-relaxed text-black font-normal pt-2">
+            {props.describe}
+          </p>
+          <div className="flex justify-start space-x-2 sm:pt-7">
+            <a href="#" className="hover:text-gray-600">
+              {linkedin_svg}
+            </a>
+            <a href="#" className="hover:text-gray-600">
+              {github_svg}
+            </a>
+            <a href="#" className="hover:text-gray-600">
+              {twitter_svg}
+            </a>
+
+            {/* <a href={props.session_link}>
+              <p className="bg-white text-gray-800 font-bold py-2 px-4 shadow-lg hover:shadow-xl transition-all duration-200 ease-in-out">
+                link
+              </p>
+            </a> */}
+          </div>
+        </div>
+      </div>
+    </>
+  );
+}
+
 export const linkedin_svg = (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -45,45 +87,3 @@ export const linkedin_svg = (
     ></path>
   </svg>
 );
-
-export default function Speaker_card(props) {
-  return (
-    <>
-      <div className="w-full bg-brochwhite rounded-lg sahdow-lg overflow-hidden flex flex-col md:flex-row ">
-        <div className="w-full md:w-2/5 h-80">
-          <img
-            className="object-center object-cover w-full h-full"
-            src={props.profile_img}
-            alt="photo"
-          ></img>
-        </div>
-        <div className="w-full md:w-3/5 text-left p-4 md:p-4 space-y-2">
-          <p className="text-5xl text-black font-bold pt-4">{props.name}</p>
-          <p className="text-3xl text-black font-normal pt-0">
-            {props.designation}
-          </p>
-          <p className="text-base leading-relaxed text-black font-normal pt-2">
-            {props.describe}
-          </p>
-          <div className="flex justify-start space-x-2 sm:pt-7">
-            <a href="#" className="hover:text-gray-600">
-              {linkedin_svg}
-            </a>
-            <a href="#" className="hover:text-gray-600">
-              {github_svg}
-            </a>
-            <a href="#" className="hover:text-gray-600">
-              {twitter_svg}
-            </a>
-
-            {/* <a href={props.session_link}>
-              <p className="bg-white text-gray-800 font-bold py-2 px-4 shadow-lg hover:shadow-xl transition-all duration-200 ease-in-out">
-                link
-              </p>
-            </a> */}
-          </div>
-        </div>
-      </div>
-    </>
-  );
-}

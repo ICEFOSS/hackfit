@@ -38,7 +38,6 @@ export default class Prize extends Component {
 }
 
 function Prize_card(props) {
-  const colored_text_style = `text-center ${props.text_color} font-bold text-2xl`;
   return (
     <>
       <div className="transform w-full sm:max-w-1/4  bg-brochblack rounded-lg shadow-lg overflow-hidden flex flex-col md:flex-row transition duration-500 hover:scale-105">
@@ -51,7 +50,7 @@ function Prize_card(props) {
           <p className="text-center text-white font-bold text-5xl p-2">
             {props.cash} <span className="text-green-600">$</span>
           </p>
-          <p className={colored_text_style}>
+          <p className={`text-center ${props.text_color} font-bold text-2xl`}>
             1st prize
           </p>
         </div>
