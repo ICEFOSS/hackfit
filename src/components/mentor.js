@@ -3,49 +3,63 @@ import './mentor.css'
 import Present from './mentors.json'
 import { linkedin_svg, github_svg } from './speaker_card'
 
-const image = "https://plchldr.co/i/500x250"
 export default class Mentor extends Component {
 
   render() {
     return (
-      <div className='bg-brochgreen'>
-        <div className="py-4 lg:flex flex-wrap">
-          {/*Acm directives contact*/}
-          <div className="flex justify-center item-center w-full">
-            <h1 className="text-5xl my-5 ">Contact Us</h1>
-          </div>
-          <div className="grid justify-center m-auto md:grid-cols-3 sm:grid-cols-1  gap-14">
-            {Present.map((item) => (
+      <section className="ml-0 sm:ml-10">
+        <div className='bg-brochgreen py-8'>
+          <div className="py-4">
+            {/*Acm directives contact*/}
+            <h3 className="text-center text-5xl leading-normal  item-center tracking-tight mb-16 flex justify-center">
+              Contact Us
+            </h3>
+            <div className="w-full bg-brochgreen">
+              <section className="max-w-xl sm:max-w-2xl lg:max-w-4xl mx-auto px-4 py-12">
+                <div className="flex flex-row flex-wrap gap-y-6 sm:gap-y-10 md:gap-y-16 justify-evenly">
 
-              <div className="py-2"  key={item.key}>
-                <div
-                  className="flex px-4 mx-4 flex-col text-center justify-between h-full w-full main-test "
-                  style={{
-                    backgroundImage: `url(${image})`,
-                  }}
-                >
-                  <div>
-                    <p className="mt-8 font-bold name">{item.name}</p>
-                    <p className="mt-2">{item.post}</p>
-                  </div>
-                  <div className="mb-5 font-light" >
-                    <div className="flex justify-center  main-test-opposite">
-                      <a href={item.linkedin} target="__blank">
-                        {linkedin_svg}
-                      </a>
-                      <a href={item.linkedin} target="__blank">
-                        {github_svg}
-                      </a>
-                      {/*<p className="mx-2"></p>*/}
-                    </div>
-                  </div>
-
+                  {Present.map((item) => (
+                    <Mentor_each_section item={item} />
+                  ))}
                 </div>
-              </div>
-            ))}
+              </section>
+            </div>
           </div>
         </div>
-      </div>
+      </section>
     )
   }
+}
+
+function Mentor_each_section(props) {
+
+  return (
+    <>
+      <div className="ml-10 py-2 col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3 self-center" key={props.item.key}>
+        <div
+          className="pt-4 sm:pt-2 md:pt-0 mx-4 text-center justify-between h-full w-full main-test "
+          style={{
+            backgroundImage: `url(https://plchldr.co/i/500x250)`,
+          }}
+        >
+          <div>
+            <p className="mt-8 md:pt-4 lg:pt-8 font-bold name">{props.item.name}</p>
+            <p>{props.item.post}</p>
+          </div>
+          <div className="pt-4 font-light" >
+            <div className="flex justify-center  main-test-opposite">
+              <a href={props.item.linkedin} target="__blank">
+                {linkedin_svg}
+              </a>
+              <a href={props.item.linkedin} target="__blank">
+                {github_svg}
+              </a>
+              {/*<p className="mx-2"></p>*/}
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </>
+  );
 }
