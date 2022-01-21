@@ -1,33 +1,66 @@
 export default function Supported() {
   return (
-    <div className="bg-brochgreen mx-auto px-5 lg:px-20">
-      <h1 className="mx-6 font-pixe text-center text-white text-5xl md:text-6xl sm:text-center sm:mx-0">
-        Suppoters
-      </h1>
-      <div className="mt-16 justify-center text-black flex flex-wrap -mx-1 lg:-mx-0">
 
-        <Supporters_each_section
-          supporter="ACM FISAT"
-          title="Go around the world"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-          link="#"
-        />
+    <section className="ml-16 md:ml-36">
+      <div className="bg-brochgreen mx-auto px-5 lg:px-20">
+        <h1 className="mx-6 font-pixe text-center text-white text-5xl md:text-6xl sm:text-center sm:mx-0">
+          Suppoters
+        </h1>
+        <div className="mt-16 justify-center text-black flex flex-wrap -mx-1 lg:-mx-0">
 
-        <Supporters_each_section
-          supporter="ICEFOSS"
-          title="Go around the world"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-          link="#"
-        />
-        <Supporters_each_section
-          supporter="FFSC"
-          title="Go around the world"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-          link="#"
-        />
+          <Supporters_each_section
+            supporter="ACM FISAT"
+            title="Go around the world"
+            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            link="#"
+          />
 
+          <Supporters_each_section
+            supporter="ICEFOSS"
+            title="Go around the world"
+            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            link="#"
+          />
+          <Supporters_each_section
+            supporter="FFSC"
+            title="Go around the world"
+            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            link="#"
+          />
+          <Supporters_each_section
+            supporter="FFSC"
+            title="Go around the world"
+            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            link="#"
+          />
+          <Supporters_each_section
+            supporter="FFSC"
+            title="Go around the world"
+            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            link="#"
+          />
+          <Supporters_each_section
+            supporter="FFSC"
+            title="Go around the world"
+            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            link="#"
+          />
+          <Supporters_each_section
+            supporter="FFSC"
+            title="Go around the world"
+            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            link="#"
+          />
+          <Supporters_each_section
+            supporter="FFSC"
+            title="Go around the world"
+            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            link="#"
+          />
+
+        </div>
       </div>
-    </div>
+    </section>
   );
 }
 
