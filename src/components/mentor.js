@@ -37,16 +37,16 @@ function Mentor_each_section(props) {
     <>
       <div className="ml-10 py-2 col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3 self-center" key={props.item.key}>
         <div
-          className="px-4 mx-4 text-center justify-between h-full w-full main-test "
+          className="pt-4 sm:pt-2 md:pt-0 mx-4 text-center justify-between h-full w-full main-test "
           style={{
             backgroundImage: `url(https://plchldr.co/i/500x250)`,
           }}
         >
           <div>
-            <p className="mt-8 font-bold name">{props.item.name}</p>
-            <p className="mt-2">{props.item.post}</p>
+            <p className="mt-8 md:pt-4 lg:pt-8 font-bold name">{props.item.name}</p>
+            <p>{props.item.post}</p>
           </div>
-          <div className="mb-5 font-light" >
+          <div className="pt-4 font-light" >
             <div className="flex justify-center  main-test-opposite">
               <a href={props.item.linkedin} target="__blank">
                 {linkedin_svg}
