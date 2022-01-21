@@ -6,7 +6,7 @@ export default function Supported() {
         <h1 className="mx-6 font-pixe text-center text-white text-5xl md:text-6xl sm:text-center sm:mx-0">
           Suppoters
         </h1>
-        <div className="mt-16 justify-center text-black flex flex-wrap -mx-1 lg:-mx-0">
+        <div className="mt-16 justify-center text-black flex flex-wrap flex-row md:flex-row-mx-1 lg:-mx-0">
 
           <Supporters_each_section
             supporter="ACM FISAT"
@@ -17,36 +17,6 @@ export default function Supported() {
 
           <Supporters_each_section
             supporter="ICEFOSS"
-            title="Go around the world"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-            link="#"
-          />
-          <Supporters_each_section
-            supporter="FFSC"
-            title="Go around the world"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-            link="#"
-          />
-          <Supporters_each_section
-            supporter="FFSC"
-            title="Go around the world"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-            link="#"
-          />
-          <Supporters_each_section
-            supporter="FFSC"
-            title="Go around the world"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-            link="#"
-          />
-          <Supporters_each_section
-            supporter="FFSC"
-            title="Go around the world"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-            link="#"
-          />
-          <Supporters_each_section
-            supporter="FFSC"
             title="Go around the world"
             description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
             link="#"
@@ -68,7 +38,7 @@ function Supporters_each_section(props) {
 
   return (
     <>
-      <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/5">
+      <div className="my-1 px-1 w-full md:w-1/2 lg:w-4/12">
         <a className="relative block group h-96">
           <span className="absolute inset-0 border-2 border-white border-dashed"></span>
 
@@ -76,7 +46,7 @@ function Supporters_each_section(props) {
             <div className="px-8 pb-8 transition-opacity group-hover:opacity-0 group-hover:absolute">
               {globe_svg}
 
-              <h2 className="mt-4 text-4xl font-pixe">{props.supporter}</h2>
+              <h2 className="mt-4 text-4xl">{props.supporter}</h2>
             </div>
 
             <div className="absolute p-8 transition-opacity opacity-0 group-hover:opacity-100 group-hover:relative">
