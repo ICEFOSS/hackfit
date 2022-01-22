@@ -7,11 +7,11 @@ export default class Mentor extends Component {
 
   render() {
     return (
-      <section className="ml-0 sm:ml-10">
+      <section className="ml-0 sm:ml-2 md:ml-24">
         <div className='bg-brochgreen py-8'>
           <div className="py-4">
             {/*Acm directives contact*/}
-            <h3 className="text-center text-5xl leading-normal  item-center tracking-tight mb-16 flex justify-center">
+            <h3 className="ml-5 text-center text-5xl leading-normal  item-center tracking-tight mb-16 flex justify-center">
               Contact Us
             </h3>
             <div className="w-full bg-brochgreen">
@@ -35,7 +35,7 @@ function Mentor_each_section(props) {
 
   return (
     <>
-      <div className="ml-10 py-2 col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3 self-center" key={props.item.key}>
+      <div className="ml-0 md:ml-10 py-2 col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3 self-center" key={props.item.key}>
         <div
           className="pt-4 sm:pt-2 md:pt-0 mx-4 text-center justify-between h-full w-full main-test "
           style={{
