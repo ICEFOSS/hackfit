@@ -1,8 +1,8 @@
 export default function Supported() {
   return (
 
-    <section className="ml-16 md:ml-36">
-      <div className="bg-brochgreen mx-auto pl-5 md:pl-20 lg:px-32">
+    <section className="ml-0 md:ml-36">
+      <div className="bg-brochgreen mx-auto px-5 lg:px-20">
         <h1 className="mx-6 font-pixe text-center text-white text-5xl md:text-6xl sm:text-center sm:mx-0">
           Suppoters
         </h1>
@@ -38,8 +38,8 @@ function Supporters_each_section(props) {
 
   return (
     <>
-      <div className="my-1 px-1 w-full md:w-1/2 lg:w-4/12">
-        <a className="relative block group h-96">
+      <div className="my-1 px-1 w-80 sm:w-56 md:w-60 lg:w-60">
+        <a className="relative block group h-44 active:h-auto hover:h-auto sm:h-96">
           <span className="absolute inset-0 border-2 border-white border-dashed"></span>
 
           <div className="relative flex items-end h-full transition-transform transform bg-white border-2 border-black group-hover:-translate-x-2 group-hover:-translate-y-2">
@@ -58,9 +58,9 @@ function Supporters_each_section(props) {
                 {props.description}
               </p>
 
-              <a href={props.link} target="_blank">
-                <p className="mt-8 font-bold">Read more</p>
-              </a>
+              {/* <a href={props.link} target="_blank"> */}
+              <p className="mt-8 font-bold">Read more</p>
+              {/* </a> */}
             </div>
           </div>
         </a>
