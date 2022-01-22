@@ -1,7 +1,7 @@
 export default function Landing() {
   return (
     <section className="">
-      <div className="bg-landingImage bg-[length:126px_126px] animate-[wiggle_90s_scroll_infinite_linear] h-screen flex justify-items-center items-center">
+      <div className="bg-landingImage bg-[length:126px_126px] animate-[wiggle_90s_scroll_infinite_linear] h-screen flex justify-items-center items-center md:justify-center lg:justify-start">
         <div className="px-10 lg:px-32 xl:px-40">
           <h1 className="text-6xl font-semibold font-sans mb-6">
             <span className="text-red-500">HACKFIT</span> <br />
