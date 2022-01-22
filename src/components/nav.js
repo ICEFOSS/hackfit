@@ -43,6 +43,7 @@ const SidenavPage = () => {
   };
   return (
     <>
+    <div className="flex justify-end">
       <button
         type="button"
         aria-disabled={open}
@@ -54,7 +55,7 @@ const SidenavPage = () => {
           className="flex justify-center items-center"
           icon={faBars}
         />
-      </button>
+      </button></div>
       <Sidenav open={open} toggle={toggle}>
         {Heading.map((item, key) => (
           <SidenavItem href="#" key={key}>
@@ -83,12 +84,12 @@ const SidenavPage = () => {
 /* Sidenav logic */
 
 const style = {
-  item: `flex flex-col justify-center items-center cursor-pointer hover:underline py-5 w-full`,
+  item: `flex flex-col justify-center items-center cursor-pointer py-5 w-full hover:underline`,
   closeIcon: `absolute top-1 focus:outline-none right-3 text-3xl text-white cursor-pointer md:hidden`,
   sidenav: {
     open: `w-screen md:w-36 bg-brochblack text-white overflow-x-hidden`,
     close: `w-0 bg-brochblack text-white overflow-x-hidden md:w-36`,
-    default: `md:ml-1 flex items-center justify-center h-screen md:h-fit z-1000 top-0 left-0 transition-all ease duration-200 md:rounded-tr-3xl md:rounded-br-3xl`,
+    default: `md:ml-1 flex items-center justify-center h-screen md:h-fit z-1000 top-0 left-0 transition-all ease duration-200 md:rounded-3xl`,
   },
 };
 
