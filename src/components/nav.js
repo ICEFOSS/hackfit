@@ -83,12 +83,12 @@ const SidenavPage = () => {
 /* Sidenav logic */
 
 const style = {
-  item: `flex flex-col justify-center items-center cursor-pointer text-2xl hover:underline mb-10 w-full`,
+  item: `flex flex-col justify-center items-center cursor-pointer hover:underline py-5 w-full`,
   closeIcon: `absolute top-1 focus:outline-none right-3 text-3xl text-white cursor-pointer md:hidden`,
   sidenav: {
     open: `w-screen md:w-36 bg-brochblack text-white overflow-x-hidden`,
     close: `w-0 bg-brochblack text-white overflow-x-hidden md:w-36`,
-    default: `md:mt-36 md:ml-1 flex items-center justify-center h-screen md:h-3/4 fixed z-20 top-0 left-0 transition-all ease duration-200 md:rounded-tr-3xl md:rounded-br-3xl`,
+    default: `md:ml-1 flex items-center justify-center h-screen md:h-fit z-1000 top-0 left-0 transition-all ease duration-200 md:rounded-tr-3xl md:rounded-br-3xl`,
   },
 };
 
@@ -108,7 +108,7 @@ function Sidenav({ open, toggle, children }) {
   }, [open, ref]);
 
   return (
-    <div className="h-screen fixed">
+    <div className='h-screen flex items-center fixed'>
       <aside
         ref={ref}
         className={`${style.sidenav.default} 
