@@ -43,22 +43,24 @@ const SidenavPage = () => {
   };
   return (
     <>
+    <div className="flex justify-end">
       <button
         type="button"
         aria-disabled={open}
         disabled={open}
         onClick={toggle}
-        className="text-white focus:outline-none m-1.5 rounded px-6 py-2 font-medium bg-brochblack fixed block md:hidden"
+        className="text-white focus:outline-none m-1.5 rounded px-6 py-2 font-medium bg-brochblack fixed md:hidden"
       >
         <FontAwesomeIcon
           className="flex justify-center items-center"
           icon={faBars}
         />
-      </button>
+      </button></div>
       <Sidenav open={open} toggle={toggle}>
         {Heading.map((item, key) => (
           <SidenavItem href="#" key={key}>
             <svg
+              className="flex justify-center items-center"
               stroke="currentColor"
               fill="currentColor"
               strokeWidth="0"
@@ -69,7 +71,9 @@ const SidenavPage = () => {
             >
               <path d={item.icon} />
             </svg>
-            <span className="pl-2">{item.name}</span>
+            <span className="flex items-center justify-center">
+              {item.name}
+            </span>
           </SidenavItem>
         ))}
       </Sidenav>
@@ -80,12 +84,12 @@ const SidenavPage = () => {
 /* Sidenav logic */
 
 const style = {
-  item: `flex justify-center items-center flex-col cursor-pointer font-medium hover:underline ml-8 mb-10 hover:border-2 hover:rounded`,
-  closeIcon: `absolute top-1 focus:outline-none right-3 text-3xl text-white cursor-pointer block md:hidden`,
+  item: `flex flex-col justify-center items-center cursor-pointer py-5 w-full hover:underline`,
+  closeIcon: `absolute top-1 focus:outline-none right-3 text-3xl text-white cursor-pointer md:hidden`,
   sidenav: {
-    open: `w-screen bg-brochblack text-white overflow-x-hidden md:w-[8.99rem]`,
-    close: `w-0 bg-brochblack text-white overflow-x-hidden md:w-[8.99rem]`,
-    default: `flex items-center justify-center h-screen fixed z-20 top-0 left-0 transition-all ease duration-200 md:rounded-tr-3xl md:rounded-br-3xl`,
+    open: `w-screen md:w-36 bg-brochblack text-white overflow-x-hidden`,
+    close: `w-0 bg-brochblack text-white overflow-x-hidden md:w-36`,
+    default: `md:ml-1 flex items-center justify-center h-screen md:h-fit z-1000 top-0 left-0 transition-all ease duration-200 md:rounded-3xl`,
   },
 };
 
@@ -105,16 +109,18 @@ function Sidenav({ open, toggle, children }) {
   }, [open, ref]);
 
   return (
-    <aside
-      ref={ref}
-      className={`${style.sidenav.default} 
+    <div className='h-screen flex items-center fixed'>
+      <aside
+        ref={ref}
+        className={`${style.sidenav.default} 
         ${open ? style.sidenav.open : style.sidenav.close}`}
-    >
-      <button aria-label="Close" className={style.closeIcon} onClick={toggle}>
-        &times;
-      </button>
-      <div className="mt-12">{children}</div>
-    </aside>
+      >
+        <button aria-label="Close" className={style.closeIcon} onClick={toggle}>
+          &times;
+        </button>
+        <div className="">{children}</div>
+      </aside>
+    </div>
   );
 }
 
