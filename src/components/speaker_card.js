@@ -1,40 +1,19 @@
 export default function Speaker_card(props) {
   return (
     <>
-      <div className="w-full bg-brochwhite rounded-lg sahdow-lg overflow-hidden flex flex-col md:flex-row ">
-        <div className="w-full md:w-2/5 h-80">
-          <img
-            className="object-center object-cover w-full h-full"
-            src={props.profile_img}
-            alt="photo"
-          ></img>
+      <div className="max-w-sm bg-white border border-gray-200">
+        <div className="flex flex-col items-center">
+          <img className="mb-3 w-32 sm:w-40 md:w-52 lg:w-56 aspect-auto shadow-lg" src={props.profile_img} alt="Bonnie image" />
+          <h3 className="text-xl font-medium text-gray-900 ">{props.name}</h3>
+          <span className="text-sm text-gray-900">{props.designation}</span>
         </div>
-        <div className="w-full md:w-3/5 text-left p-4 md:p-4 space-y-2">
-          <p className="text-5xl text-black font-bold pt-4">{props.name}</p>
-          <p className="text-3xl text-black font-normal pt-0">
-            {props.designation}
-          </p>
-          <p className="text-base leading-relaxed text-black font-normal pt-2">
-            {props.describe}
-          </p>
-          <div className="flex justify-start space-x-2 sm:pt-7">
-            <a href="#" className="hover:text-gray-600">
-              <Linkedin_svg />
-            </a>
-            <a href="#" className="hover:text-gray-600">
-              <Github_svg />
-            </a>
-            <a href="#" className="hover:text-gray-600">
-              <Twitter_svg />
-            </a>
-
-            {/* <a href={props.session_link}>
-              <p className="bg-white text-gray-800 font-bold py-2 px-4 shadow-lg hover:shadow-xl transition-all duration-200 ease-in-out">
-                link
-              </p>
-            </a> */}
-          </div>
-        </div>
+        <p className="flex flex-wrap flex-row justify-center pb-0">
+          <Linkedin_svg />
+          <p className="mx-2" />
+          <Github_svg />
+          <p className="mx-2" />
+          <Twitter_svg />
+        </p>
       </div>
     </>
   );
@@ -78,7 +57,7 @@ export function Twitter_svg(props) {
   }
   return (
     <svg
-      className={`w-6 aspect-ratio-square ${svg_active_style}`}
+      className={`w-6 md:w-8 lg:w-10 aspect-ratio-square ${svg_active_style}`}
       xmlns="http://www.w3.org/2000/svg"
       x="0px"
       y="0px"
