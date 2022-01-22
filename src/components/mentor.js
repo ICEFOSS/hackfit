@@ -16,7 +16,7 @@ export default class Mentor extends Component {
             </h3>
             <div className="w-full bg-brochgreen">
               <section className="max-w-xl sm:max-w-2xl lg:max-w-4xl mx-auto px-4 py-6 pb-12">
-                <div className="flex flex-row flex-wrap gap-y-0 sm:gap-y-10 md:gap-y-16 justify-evenly">
+                <div className="flex flex-row flex-wrap gap-y-0 justify-evenly">
 
                   {Present.map((item) => (
                     <Mentor_each_section item={item} />
