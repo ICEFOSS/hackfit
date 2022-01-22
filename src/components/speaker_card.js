@@ -22,10 +22,10 @@ export default function Speaker_card(props) {
               <Linkedin_svg />
             </a>
             <a href="#" className="hover:text-gray-600">
-              {github_svg}
+              <Github_svg />
             </a>
             <a href="#" className="hover:text-gray-600">
-              {twitter_svg}
+              <Twitter_svg />
             </a>
 
             {/* <a href={props.session_link}>
@@ -49,7 +49,7 @@ export function Linkedin_svg(props) {
   }
   return (
     <svg
-      className={`w-6 aspect-ratio-square ${svg_active_style}`}
+      className={`w-6 md:w-8 lg:w-10 aspect-ratio-square ${svg_active_style}`}
       xmlns="http://www.w3.org/2000/svg"
       x="0px"
       y="0px"
@@ -69,10 +69,16 @@ export function Linkedin_svg(props) {
 
   )
 }
-export function twitter_svg(props) {
+export function Twitter_svg(props) {
+  let svg_active_style = `visible`;
+  if (props.hide === 'true') {
+    svg_active_style = 'invisible';
+  } else {
+    svg_active_style = 'visible';
+  }
   return (
     <svg
-      className="w-6 aspect-square"
+      className={`w-6 aspect-ratio-square ${svg_active_style}`}
       xmlns="http://www.w3.org/2000/svg"
       x="0px"
       y="0px"
@@ -87,10 +93,16 @@ export function twitter_svg(props) {
     </svg>
   )
 }
-export function github_svg(props) {
+export function Github_svg(props) {
+  let svg_active_style = `visible`;
+  if (props.hide === 'true') {
+    svg_active_style = 'invisible';
+  } else {
+    svg_active_style = 'visible';
+  }
   return (
     <svg
-      className={`w-6 aspect-square `}
+      className={`w-6 md:w-8 lg:w-10 aspect-ratio-square ${svg_active_style}`}
       xmlns="http://www.w3.org/2000/svg"
       x="0px"
       y="0px"

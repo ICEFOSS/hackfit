@@ -89,10 +89,28 @@ display:none;
 /* .main-test-opposite:last-child{
   display: none;
 } */
-@media (max-width: 479px) {
+@media  (max-width: 479px) {
   .main-test {
     height: 8rem;
     width: 8rem;
+    font-weight: 500;
+    overflow: hidden;
+  }
+}
+
+@media  (min-width:480px ) and (max-width: 640px) {
+  .main-test {
+    height: 9rem;
+    width: 9rem;
+    font-weight: 500;
+    overflow: hidden;
+  }
+}
+
+@media (min-width:641px ) and (max-width: 768px) {
+  .main-test {
+    height: 10rem;
+    width:10rem;
     font-weight: 500;
     overflow: hidden;
   }
