@@ -33,7 +33,7 @@ const speakers = [
 export default function Speaker() {
     return (
 
-        <section>
+        <section className="ml-16 p-3 sm:ml-16 sm:p-0 md:ml-36">
             <div className="bg-brochgreen text-white py-8">
                 <h1 className="mx-6 mt-1 font-pixe text-center text-white text-5xl md:text-6xl sm:text-center sm:mx-0">
                     Speakers
