@@ -1,39 +1,12 @@
 export default function Speaker_card(props) {
   return (
     <>
-      <div className="w-full bg-brochwhite rounded-lg sahdow-lg overflow-hidden flex flex-col md:flex-row ">
-        <div className="w-full md:w-2/5 h-80">
-          <img
-            className="object-center object-cover w-full h-full"
-            src={props.profile_img}
-            alt="photo"
-          ></img>
-        </div>
-        <div className="w-full md:w-3/5 text-left p-4 md:p-4 space-y-2">
-          <p className="text-5xl text-black font-bold pt-4">{props.name}</p>
-          <p className="text-3xl text-black font-normal pt-0">
-            {props.designation}
-          </p>
-          <p className="text-base leading-relaxed text-black font-normal pt-2">
-            {props.describe}
-          </p>
-          <div className="flex justify-start space-x-2 sm:pt-7">
-            <a href="#" className="hover:text-gray-600">
-              {linkedin_svg}
-            </a>
-            <a href="#" className="hover:text-gray-600">
-              {github_svg}
-            </a>
-            <a href="#" className="hover:text-gray-600">
-              {twitter_svg}
-            </a>
+      <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+        <div className="flex flex-col items-center pb-10">
+          <img className="my-3 w-32 aspect-auto rounded-full shadow-lg" src={props.profile_img} alt="Bonnie image" />
+          <h3 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">{props.name}</h3>
+          <span className="text-sm text-gray-500 dark:text-gray-400">{props.designation}</span>
 
-            {/* <a href={props.session_link}>
-              <p className="bg-white text-gray-800 font-bold py-2 px-4 shadow-lg hover:shadow-xl transition-all duration-200 ease-in-out">
-                link
-              </p>
-            </a> */}
-          </div>
         </div>
       </div>
     </>
