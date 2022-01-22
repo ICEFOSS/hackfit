@@ -1,7 +1,7 @@
 export default function Faq() {
   return (
     <div>
-      <section className="text-gray-700 ml-12 sm:ml-16 md:ml-32">
+      <section className="text-gray-700 ml-0 md:ml-32">
         <div className="container px-5 py-24 mx-auto">
           <div className="text-center mb-20">
             <h3 className="text-center text-4xl sm:text-6xl leading-normal tracking-tight text-gray-900">
