@@ -1,10 +1,10 @@
 export default function Sponsor_card(props) {
   return (
-    <section className="col-span-12 md:col-span-6 lg:col-span-4 md:mx-auto my-3">
+    <section className="col-span-12 md:col-span-6 lg:col-span-4 md:mx-auto my-3 sm:w-40 lg:w-48 mx-1 sm:mx-0">
       <div className="w-full">
         <a href={props.url}>
           <img
-            className="object-center object-cover w-full "
+            className="object-center object-cover w-full rounded-lg"
             src={props.logo}
             alt="photo"
           />
