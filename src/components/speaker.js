@@ -40,7 +40,7 @@ export default function Speaker() {
                 </h1>
 
                 <div className="w-full bg-brochgreen">
-                    <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-4 py-12">
+                    <section className="max-w-full mx-auto px-4 sm:px-6 lg:px-4 py-12">
                         <div className="flex flex-wrap flex-row justify-center gap-6">
                             {
                                 speakers.map((speaker, ind) => (

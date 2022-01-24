@@ -1,11 +1,11 @@
 export default function Speaker_card(props) {
   return (
     <>
-      <div className="max-w-sm bg-white border border-gray-200">
-        <div className="flex flex-col items-center">
-          <img className="mb-3 w-32 sm:w-40 md:w-52 lg:w-56 aspect-auto shadow-lg" src={props.profile_img} alt="Bonnie image" />
-          <h3 className="text-xl font-medium text-gray-900 ">{props.name}</h3>
-          <span className="text-sm text-gray-900">{props.designation}</span>
+      <div className="max-w-sm bg-white border border-gray-200 my-1 mx-1 w-80 sm:w-60 md:w-72 lg:w-72">
+        <div className="col-span-12 md:col-span-6 lg:col-span-3 xl:col-span-2 self-center">
+          <img className="mb-3 w-40 md:w-40 lg:w-56 aspect-auto shadow-lg mx-auto" src={props.profile_img} alt="Bonnie image" />
+          <h3 className="text-3xl font-medium text-gray-900 text-center">{props.name}</h3>
+          <h4 className="text-lg text-gray-900 text-center">{props.designation}</h4>
         </div>
         <p className="flex flex-wrap flex-row justify-center pb-0">
           <Linkedin_svg />
