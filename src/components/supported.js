@@ -38,7 +38,7 @@ function Supporters_each_section(props) {
 
   return (
     <>
-      <div className="my-1 px-1 w-80 sm:w-56 md:w-60 lg:w-60">
+      <div className="my-1 px-1 md:p-2 w-80 sm:w-56 md:w-60 lg:w-72">
         <a className="relative block group h-44 active:h-auto hover:h-auto sm:h-96">
           <span className="absolute inset-0 border-2 border-white border-dashed"></span>
 
