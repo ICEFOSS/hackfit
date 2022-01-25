@@ -27,6 +27,14 @@
   color: white;
   position: relative;
 }
+.main-test svg{
+  opacity: 0;
+}
+.main-test:hover svg,
+.main-test:focus svg,
+.main-test:active svg{
+  opacity: 1;
+}
 /* .main-test::before{
   content: "";
   position: absolute;
