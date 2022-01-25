@@ -21,7 +21,7 @@ export default function Speaker_card(props) {
 
 export function Linkedin_svg(props) {
   let svg_active_style = `visible`;
-  if (props.hide === 'true') {
+  if (props.isActive == false) {
     svg_active_style = 'invisible';
   } else {
     svg_active_style = 'visible';
@@ -50,7 +50,7 @@ export function Linkedin_svg(props) {
 }
 export function Twitter_svg(props) {
   let svg_active_style = `visible`;
-  if (props.hide === 'true') {
+  if (props.isActive == false) {
     svg_active_style = 'invisible';
   } else {
     svg_active_style = 'visible';
@@ -74,7 +74,7 @@ export function Twitter_svg(props) {
 }
 export function Github_svg(props) {
   let svg_active_style = `visible`;
-  if (props.hide === 'true') {
+  if (props.isActive == false) {
     svg_active_style = 'invisible';
   } else {
     svg_active_style = 'visible';

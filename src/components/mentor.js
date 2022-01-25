@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component, useState, useMemo } from 'react'
 import './mentor.css'
 import Present from './mentors.json'
 import { Linkedin_svg, Github_svg } from './speaker_card'
@@ -32,7 +32,6 @@ export default class Mentor extends Component {
 }
 
 function Mentor_each_section(props) {
-
   return (
     <>
       <div className="ml-0 py-2 col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3 self-center" key={props.item.key}>
