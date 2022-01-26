@@ -1,7 +1,7 @@
 export default function Supported() {
   return (
 
-    <section className="ml-0 md:ml-36 mt-24"
+    <section className="ml-0 md:ml-36 mt-36"
       id="Supporters">
       <div className="bg-brochgreen mx-auto px-5 lg:px-20">
         <h1 className="mx-6 font-pixe text-center text-white text-5xl md:text-6xl sm:text-center sm:mx-0">

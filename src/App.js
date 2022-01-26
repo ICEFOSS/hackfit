@@ -13,14 +13,14 @@ const App = () => {
     <div className="font-sans text-white bg-brochgreen">
       <Nav />
       <Landing />
-      <Speaker />
       <Supported />
       <Prizes />
+      <Speaker />
       <Schedule />
       <Mentor />
       <Sponsors />
       <Faq />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };
