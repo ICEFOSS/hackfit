@@ -1,9 +1,9 @@
 export default function Speaker_card(props) {
   return (
     <>
-      <div className="max-w-sm bg-white border border-gray-200 my-1 mx-1 w-80 sm:w-60 md:w-72 lg:w-72">
+      <div className="max-w-sm bg-gray-200 bg-opacity-70 rounded-2xl  border border-gray-200 my-1 mx-1 w-80 sm:w-72 md:w-72 lg:w-80">
         <div className="col-span-12 md:col-span-6 lg:col-span-3 xl:col-span-2 self-center">
-          <img className="mb-3 w-40 md:w-40 lg:w-56 aspect-auto shadow-lg mx-auto" src={props.profile_img} alt="Bonnie image" />
+          <img className="my-3 w-40 md:w-48 lg:w-56 rounded-full shadow-lg mx-auto" src={props.profile_img} alt="Bonnie image" />
           <h3 className="text-3xl font-medium text-gray-900 text-center">{props.name}</h3>
           <h4 className="text-lg text-gray-900 text-center">{props.designation}</h4>
         </div>

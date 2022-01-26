@@ -7,6 +7,7 @@ import Supported from "./components/supported";
 import Mentor from './components/mentor'
 import Schedule from "./components/schedule";
 import Sponsors from "./components/sponsors";
+import Footer from "./components/footer";
 const App = () => {
   return (
     <div className="font-sans text-white bg-brochgreen">
@@ -19,6 +20,7 @@ const App = () => {
       <Mentor />
       <Sponsors />
       <Faq />
+      {/* <Footer /> */}
     </div>
   );
 };
