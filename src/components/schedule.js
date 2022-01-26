@@ -1,13 +1,13 @@
 export default function Schedule() {
   return (
-    <section className="ml-0 md:ml-36"
+    <section className="ml-0 md:ml-36 mt-20"
       id="Schedule">
-      <div className="bg-brochgreen text-white py-8">
-        <h1 className="mx-6 mt-1 font-pixe text-center text-white text-5xl md:text-6xl sm:text-center sm:mx-0">Schedule</h1>
-        <div className="container mx-auto flex flex-col justify-center items-start md:flex-row my-12 md:my-24">
+      <div className="bg-brochgreen text-white">
+        <h1 className="text-center text-white text-5xl md:text-6xl sm:mx-0">Schedule</h1>
+        <div className="container mx-auto flex flex-col justify-evenly items-start md:flex-row my-6 md:my-12">
           <div className="ml-0 lg:w-2/3 sticky">
             <div className="container mx-auto w-full h-full">
-              <div className="relative wrap overflow-hidden p-10 h-full">
+              <div className="relative wrap overflow-hidden p-6 h-full">
                 <div
                   className="border-2-2 border-yellow-555 absolute h-full border"
                   style={{ right: '50%', border: '2px solid #FFC100', borderRadius: '1%' }}></div>
