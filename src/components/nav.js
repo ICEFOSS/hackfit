@@ -1,4 +1,4 @@
-import React,{useState} from "react";
+import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 const SidenavPage = () => {
@@ -43,19 +43,19 @@ const SidenavPage = () => {
   };
   return (
     <>
-    <div className="flex justify-end">
-      <button
-        type="button"
-        aria-disabled={open}
-        disabled={open}
-        onClick={toggle}
-        className="text-white focus:outline-none m-1.5 rounded px-6 py-2 font-medium bg-brochblack fixed md:hidden"
-      >
-        <FontAwesomeIcon
-          className="flex justify-center items-center"
-          icon={faBars}
-        />
-      </button></div>
+      <div className="flex justify-end">
+        <button
+          type="button"
+          aria-disabled={open}
+          disabled={open}
+          onClick={toggle}
+          className="text-white focus:outline-none m-1.5 rounded px-6 py-2 font-medium bg-brochblack fixed md:hidden z-50"
+        >
+          <FontAwesomeIcon
+            className="flex justify-center items-center"
+            icon={faBars}
+          />
+        </button></div>
       <Sidenav open={open} toggle={toggle}>
         {Heading.map((item, key) => (
           <SidenavItem href="#" key={key}>
@@ -109,7 +109,7 @@ function Sidenav({ open, toggle, children }) {
   }, [open, ref]);
 
   return (
-    <div className='h-screen flex items-center fixed'>
+    <div className='h-screen flex items-center fixed z-50'>
       <aside
         ref={ref}
         className={`${style.sidenav.default} 
