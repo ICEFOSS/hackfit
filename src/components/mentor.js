@@ -12,7 +12,7 @@ export default class Mentor extends Component {
         <div className='bg-brochgreen py-8'>
           <div className="py-4">
             {/*Acm directives contact*/}
-            <h3 className="text-center text-5xl leading-normal  item-center tracking-tight mb-6 md:mb-0 flex justify-center">
+            <h3 className="text-center text-5xl md:text-6xl leading-normal  item-center tracking-tight mb-6 md:mb-0 flex justify-center">
               Mentors
             </h3>
             <div className="w-full bg-brochgreen">
