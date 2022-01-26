@@ -2,7 +2,7 @@
 export default function Footer() {
     return (
         <div className=" bg-gray-800">
-            <footer className="text-centerml-0 md:ml-36 mt-36">
+            <footer className="text-center ml-0 md:ml-36 mt-36">
                 <div className="max-w-screen-xl px-4 py-12 mx-auto sm:px-6 lg:px-8">
                     <div className="max-w-3xl mx-auto space-y-6">
                         <p className="text-xs font-medium">&copy; 2022 Hackfit</p>
