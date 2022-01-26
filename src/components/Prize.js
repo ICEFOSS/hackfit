@@ -2,7 +2,8 @@ import React, { Component } from "react";
 export default class Prize extends Component {
   render() {
     return (
-      <section className=" ml-0 md:ml-36  px-3 sm:px-6 lg:px-4 py-12 mx-auto">
+      <section className=" ml-0 md:ml-36  px-3 sm:px-6 lg:px-4 py-12 mx-auto"
+        id="Prices">
         <div className="text-center pb-12">
           <h1 className="text-3xl md:text-4xl lg:text-7xl font-heading text-white">
             prizes

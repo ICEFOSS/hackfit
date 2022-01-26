@@ -1,7 +1,8 @@
 export default function Faq() {
   return (
     <div>
-      <section className="text-gray-700 ml-0 md:ml-32">
+      <section className="text-gray-700 ml-0 md:ml-32"
+        id="FAQ">
         <div className="container px-5 py-10 mx-auto">
           <div className="text-center mb-6">
             <h3 className="text-center text-5xl sm:text-6xl leading-normal tracking-tight text-gray-900">

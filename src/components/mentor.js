@@ -7,7 +7,8 @@ export default class Mentor extends Component {
 
   render() {
     return (
-      <section className="ml-0 md:ml-36">
+      <section className="ml-0 md:ml-36"
+        id='Mentors'>
         <div className='bg-brochgreen py-8'>
           <div className="py-4">
             {/*Acm directives contact*/}
