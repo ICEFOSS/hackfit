@@ -11,7 +11,7 @@ export default function Speaker() {
 
                 <div className="w-full bg-brochgreen">
                     <section className="max-w-full mx-auto px-4 sm:px-6 lg:px-4 py-12">
-                        <div className="flex flex-wrap flex-row justify-around gap-6 lg:mx-20 xl:mx-32">
+                        <div className="flex flex-wrap flex-row justify-evenly gap-6 lg:mx-20 xl:mx-32">
                             {
                                 speakers.map((speaker, ind) => (
                                     <Speaker_card

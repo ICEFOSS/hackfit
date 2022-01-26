@@ -1,12 +1,12 @@
 export default function Supported() {
   return (
 
-    <section className="ml-0 md:ml-36">
+    <section className="ml-0 md:ml-36 mt-24">
       <div className="bg-brochgreen mx-auto px-5 lg:px-20">
         <h1 className="mx-6 font-pixe text-center text-white text-5xl md:text-6xl sm:text-center sm:mx-0">
           Suppoters
         </h1>
-        <div className="mt-16 justify-center text-black flex flex-wrap flex-row md:flex-row-mx-1 lg:-mx-0">
+        <div className="mt-16 justify-center text-black flex flex-wrap flex-row md:flex-row-mx-1 gap-5">
 
           <Supporters_each_section
             supporter="ACM FISAT"
@@ -38,8 +38,8 @@ function Supporters_each_section(props) {
 
   return (
     <>
-      <div className="my-1 px-1 md:p-2 w-80 sm:w-56 md:w-60 lg:w-72">
-        <a className="relative block group h-44 active:h-auto hover:h-auto sm:h-96">
+      <div className="my-1 px-1 md:p-2 w-80 sm:w-[17rem] lg:w-72">
+        <a className="relative block group h-[284px] active:h-auto hover:h-auto sm:h-[348px]">
           <span className="absolute inset-0 border-2 border-white border-dashed"></span>
 
           <div className="relative flex items-end h-full transition-transform transform bg-white border-2 border-black group-hover:-translate-x-2 group-hover:-translate-y-2">
@@ -50,11 +50,11 @@ function Supporters_each_section(props) {
             </div>
 
             <div className="absolute p-8 transition-opacity opacity-0 group-hover:opacity-100 group-hover:relative">
-              <h2 className="w-74 mt-4 text-2xl font-medium">
+              <h2 className="w-74 mt-4 text-2xl md:text-3xl font-medium">
                 {props.title}
               </h2>
 
-              <p className="mt-4">
+              <p className="mt-4 lg:text-md">
                 {props.description}
               </p>
 
