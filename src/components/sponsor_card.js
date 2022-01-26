@@ -2,7 +2,7 @@ const all_sponsors_names = ["Diamond", "Gold", "Platinum"];
 const all_sponsors_Txt_color = ["text-diamond", "text-gold", "text-platinum"];
 
 export default function Sponsor_each_section(props) {
-  const all_sponsors_names_style = `text-center ${all_sponsors_Txt_color[props.sponsor_index]} text-5xl md:text-6xl mx-4`;
+  const all_sponsors_names_style = `text-center ${all_sponsors_Txt_color[props.sponsor_index]} text-4xl md:text-5xl mx-4`;
 
   return (
     <>
