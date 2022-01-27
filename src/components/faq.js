@@ -30,14 +30,11 @@ export default function Faq() {
                 answer="
                 A team can consist of 1-5 members"
               />
-              {/* <Each_faq_bar
-                question="How many sites I can create at once?"
-                answer="
-                Laboris qui labore cillum culpa in sunt quis sint veniam.
-                Dolore ex aute deserunt esse ipsum elit aliqua. Aute quis
-                minim velit nostrud pariatur culpa magna in aute."
-              />
               <Each_faq_bar
+                question="How many rounds will there be in the hackathon?"
+                answer="There are two rounds, a preliminary  round and a final round."
+              />
+              {/* <Each_faq_bar
                 question="How can I communicate with you?"
                 answer="Laboris qui labore cillum culpa in sunt quis sint veniam.
                 Dolore ex aute deserunt esse ipsum elit aliqua. Aute quis
@@ -61,7 +58,7 @@ function Each_faq_bar(props) {
   return (
     <>
       <details className="mb-4">
-        <summary className="text-xl sm:text-2xl rounded-t transition duration-200 hover:scale-105 bg-gray-200 py-2 px-4">
+        <summary className="md:text-xl sm:text-2xl  rounded-t transition duration-200 hover:scale-105 bg-gray-200 py-2 px-4">
           {props.question}
         </summary>
 
