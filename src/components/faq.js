@@ -71,7 +71,7 @@ function Each_faq_bar(props) {
         </summary>
 
         <p
-          className="text-lg md:text-xl bg-slate-300 rounded-b p-4 px-6 bg-opacity-30"
+          className="text-lg md:text-xl bg-slate-300 rounded-b p-4 px-6 opacity-95 bg-opacity-30"
           style={{ fontFamily: "sans-serif" }}
         >
           {props.answer}
