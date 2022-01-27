@@ -1,10 +1,10 @@
 export default function Schedule() {
   return (
-    <section className="ml-0 md:ml-36 mt-20"
+    <section className="ml-0 md:ml-36"
       id="Schedule">
-      <div className="bg-brochgreen text-white">
+      <div className=" text-white">
         <h1 className="text-center text-white text-5xl md:text-6xl sm:mx-0">Schedule</h1>
-        <div className="container mx-auto flex flex-col justify-evenly items-start md:flex-row my-6 md:my-12">
+        <div className="container mx-auto flex flex-col justify-evenly items-start md:flex-row">
           <div className="ml-0 lg:w-2/3 sticky">
             <div className="container mx-auto w-full h-full">
               <div className="relative wrap overflow-hidden p-6 h-full">

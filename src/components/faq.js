@@ -1,7 +1,7 @@
 export default function Faq() {
   return (
     <div>
-      <section className="text-gray-700 ml-0 md:ml-32 mt-10"
+      <section className="text-gray-700 ml-0 md:ml-32"
         id="FAQ">
         <div className="container px-5 py-10 mx-auto">
           <div className="text-center mb-6">

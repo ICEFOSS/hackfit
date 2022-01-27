@@ -6,11 +6,11 @@ export default function Sponsor_each_section(props) {
 
   return (
     <>
-      <div className=" w-full my-8">
+      <div className=" w-full mt-8">
         <h2 className={all_sponsors_names_style}>
           {all_sponsors_names[props.sponsor_index]} Sponsors
         </h2>
-        <div className="w-full bg-brochgreen">
+        <div className="w-full">
           <section className="max-w-md sm:max-w-lg md:max-w-2xl lg:max-w-3xl mx-auto px-4 py-6 pb-10">
             <div className="flex flex-row flex-wrap gap-y-6 sm:gap-y-10 md:gap-y-16 w-full">
               <div className="flex flex-wrap flex-row mx-8  flex-grow justify-evenly">
