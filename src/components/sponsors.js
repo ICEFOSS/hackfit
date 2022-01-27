@@ -1,10 +1,11 @@
-import Sponsor_card, { Sponsor_each_section } from "./sponsor_card";
+import Sponsor_each_section from "./sponsor_card";
 
 export default function Sponsor() {
   return (
-    <section className="ml-0 sm:ml-14 md:ml-28 lg:ml-10">
-      <div className="bg-brochgreen text-white py-8 overflow-x-clip">
-        <h3 className="text-center text-5xl leading-normal  item-center tracking-tight text-gray-900 mb-16 flex justify-center">
+    <section className="ml-0 md:ml-36 mt-8"
+      id="Sponsors">
+      <div className="bg-brochgreen text-white py-0 overflow-x-clip">
+        <h3 className="text-center text-5xl md:text-6xl leading-normal  item-center tracking-tight text-gray-900 mb-6 flex flex-wrap justify-center">
           Our <span className="text-gray-300">Sponsors</span>
         </h3>
 
