@@ -20,7 +20,7 @@ const App = () => {
       <Mentor />
       <Sponsors />
       <Faq />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };
