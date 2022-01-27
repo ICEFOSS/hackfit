@@ -8,12 +8,14 @@ import Mentor from './components/mentor'
 import Schedule from "./components/schedule";
 import Sponsors from "./components/sponsors";
 import Footer from "./components/footer";
+import About from "./components/about";
 const App = () => {
   return (
     <div className="font-sans text-white bg-brochgreen">
       <Nav />
       <Landing />
       <Supported />
+      <About />
       <Prizes />
       <Speaker />
       <Schedule />
