@@ -1,8 +1,7 @@
 export default function Faq() {
   return (
     <div>
-      <section className="text-gray-700 ml-0 md:ml-32"
-        id="FAQ">
+      <section className="text-gray-700 ml-0 md:ml-32" id="FAQ">
         <div className="container px-5 py-10 mx-auto">
           <div className="text-center mb-6">
             <h3 className="text-center text-5xl md:text-6xl leading-normal tracking-tight text-gray-900">
@@ -12,35 +11,26 @@ export default function Faq() {
           <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
             <div className="w-full lg:w-1/2 px-4 py-2">
               <Each_faq_bar
-                question="How Long is this site live?"
-                answer="Laboris qui labore cillum culpa in sunt quis sint veniam.
-            Dolore ex aute deserunt esse ipsum elit aliqua. Aute quis
-            minim velit nostrud pariatur culpa magna in aute.."
+                question="How to reach FISAT?"
+                answer="You can either take the bus or train to arrive at Angamaly. From there are multiple possibilities:
+                Take an auto-rikshaw that will take you to FISAT for about ₹150-180.
+                Take a private bus that goes directly to FISAT.
+                Take a private bus to Mookkannoor and:
+                Walk for 15 minutes to FISAT.
+                Take an auto-rikshaw from Mookkannoor to FISAT for about ₹50"
               />
               <Each_faq_bar
-                question="Can I install anything I want on there?"
-                answer="Laboris qui labore cillum culpa in sunt quis sint veniam.
-                Dolore ex aute deserunt esse ipsum elit aliqua. Aute quis
-                minim velit nostrud pariatur culpa magna in aute.."
+                question="Do we get any certificate for participation?"
+                answer="Yes, you do get a Certificate of Participation if your hack is submitted successfully."
               />
-              <Each_faq_bar
-                question="How can I migrate to another site?"
-                answer="Laboris qui labore cillum culpa in sunt quis sint veniam.
-              Dolore ex aute deserunt esse ipsum elit aliqua. Aute quis
-              minim velit nostrud pariatur culpa magna in aute.."
-              />
-
             </div>
             <div className="w-full lg:w-1/2 px-4 py-2">
-
               <Each_faq_bar
-                question="Can I change the domain you give me?"
+                question="What can be the size of the team?"
                 answer="
-                Laboris qui labore cillum culpa in sunt quis sint veniam.
-                Dolore ex aute deserunt esse ipsum elit aliqua. Aute quis
-                minim velit nostrud pariatur culpa magna in aute."
+                A team can consist of 1-5 members"
               />
-              <Each_faq_bar
+              {/* <Each_faq_bar
                 question="How many sites I can create at once?"
                 answer="
                 Laboris qui labore cillum culpa in sunt quis sint veniam.
@@ -52,7 +42,13 @@ export default function Faq() {
                 answer="Laboris qui labore cillum culpa in sunt quis sint veniam.
                 Dolore ex aute deserunt esse ipsum elit aliqua. Aute quis
                 minim velit nostrud pariatur culpa magna in aute.."
-              />
+              /> */}
+                 {/* <Each_faq_bar
+                question="Can I install anything I want on there?"
+                answer="Laboris qui labore cillum culpa in sunt quis sint veniam.
+                Dolore ex aute deserunt esse ipsum elit aliqua. Aute quis
+                minim velit nostrud pariatur culpa magna in aute.."
+              /> */}
             </div>
           </div>
         </div>
@@ -64,7 +60,6 @@ export default function Faq() {
 function Each_faq_bar(props) {
   return (
     <>
-
       <details className="mb-4">
         <summary className="text-xl sm:text-2xl rounded-t transition duration-200 hover:scale-105 bg-gray-200 py-2 px-4">
           {props.question}
@@ -78,5 +73,5 @@ function Each_faq_bar(props) {
         </p>
       </details>
     </>
-  )
+  );
 }
