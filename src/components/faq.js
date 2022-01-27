@@ -13,11 +13,12 @@ export default function Faq() {
               <Each_faq_bar
                 question="How to reach FISAT?"
                 answer="You can either take the bus or train to arrive at Angamaly. From there are multiple possibilities:
-                Take an auto-rikshaw that will take you to FISAT for about ₹150-180.
-                Take a private bus that goes directly to FISAT.
-                Take a private bus to Mookkannoor and:
-                Walk for 15 minutes to FISAT.
-                Take an auto-rikshaw from Mookkannoor to FISAT for about ₹50"
+                <ul>
+                <li>- Take an auto-rikshaw that will take you to FISAT for about ₹150-180.</li>
+                <li>- Take a private bus that goes directly to FISAT.</li>
+                <li>- Take a private bus to Mookkannoor and
+                walk 15 minutes to FISAT.</li>
+                <li>- Take an auto-rikshaw from Mookkannoor to FISAT for about ₹50</li>"
               />
               <Each_faq_bar
                 question="Do we get any certificate for participation?"
@@ -43,7 +44,7 @@ export default function Faq() {
                 Dolore ex aute deserunt esse ipsum elit aliqua. Aute quis
                 minim velit nostrud pariatur culpa magna in aute.."
               /> */}
-                 {/* <Each_faq_bar
+              {/* <Each_faq_bar
                 question="Can I install anything I want on there?"
                 answer="Laboris qui labore cillum culpa in sunt quis sint veniam.
                 Dolore ex aute deserunt esse ipsum elit aliqua. Aute quis
@@ -59,17 +60,18 @@ export default function Faq() {
 
 function Each_faq_bar(props) {
   return (
-    <>
+    < >
       <details className="mb-4">
-        <summary className="text-xl sm:text-2xl rounded-t transition duration-200 hover:scale-105 bg-gray-200 py-2 px-4 opacity-80 bg-opacity-60">
+        <summary className="text-xl sm:text-2xl rounded-t transition duration-200 hover:scale-105 bg-gray-200 py-2 px-4 opacity-80 bg-opacity-70">
           {props.question}
         </summary>
 
         <p
-          className="text-lg md:text-xl bg-slate-300 rounded-b p-4 px-6 opacity-95 bg-opacity-30"
+          className="text-md md:text-lg bg-slate-300 rounded-b p-4 px-6 opacity-95 bg-opacity-50 "
           style={{ fontFamily: "sans-serif" }}
+          dangerouslySetInnerHTML={{ __html: props.answer }}
         >
-          {props.answer}
+          {/* {props.answer} */}
         </p>
       </details>
     </>

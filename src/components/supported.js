@@ -39,8 +39,8 @@ function Supporters_each_section(props) {
 
   return (
     <>
-      <div className="my-1 px-1 md:p-2 w-80 sm:w-[17rem] lg:w-72">
-        <a className="relative block group h-[455px] active:h-auto hover:h-[455px] sm:h-[32rem] sm:hover:h-[32rem]">
+      <div className="my-1 px-1 md:p-2 w-80 sm:w-80">
+        <a className="relative block group h-[455px] active:h-auto hover:h-auto sm:h-[28rem] sm:hover:h-[28rem]">
           <span className="absolute inset-0 border-2 border-white border-dashed"></span>
 
           <div className="relative flex items-end h-full transition-transform transform bg-white border-2 border-black group-hover:-translate-x-2 group-hover:-translate-y-2">

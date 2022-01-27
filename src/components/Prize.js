@@ -9,7 +9,7 @@ export default class Prize extends Component {
             prizes
           </h1>
         </div>
-        <div className="flex flex-wrap flex-row gap-6 justify-center mx-auto">
+        <div className="flex flex-wrap flex-row gap-6 justify-center mx-4 xs:mx-auto">
 
           <Prize_card
             cash=". . ."
