@@ -66,12 +66,12 @@ function Each_faq_bar(props) {
     <>
 
       <details className="mb-4">
-        <summary className="text-xl sm:text-2xl rounded-t transition duration-200 hover:scale-105 bg-gray-200 py-2 px-4">
+        <summary className="text-xl sm:text-2xl rounded-t transition duration-200 hover:scale-105 bg-gray-200 py-2 px-4 opacity-80 bg-opacity-60">
           {props.question}
         </summary>
 
         <p
-          className="text-lg md:text-xl bg-slate-300 rounded-b p-4 px-6"
+          className="text-lg md:text-xl bg-slate-300 rounded-b p-4 px-6 bg-opacity-30"
           style={{ fontFamily: "sans-serif" }}
         >
           {props.answer}
