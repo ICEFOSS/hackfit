@@ -2,30 +2,31 @@ import React, { Component } from "react";
 export default class Prize extends Component {
   render() {
     return (
-      <section className=" ml-0 md:ml-36  px-3 sm:px-6 lg:px-4 py-12 mx-auto">
+      <section className=" ml-0 md:ml-36 mt-36"
+        id="Prices">
         <div className="text-center pb-12">
-          <h1 className="text-3xl md:text-4xl lg:text-7xl font-heading text-white">
+          <h1 className="text-5xl md:text-6xl font-heading text-white">
             prizes
           </h1>
         </div>
-        <div className="flex flex-wrap flex-row gap-3 justify-center mx-auto">
+        <div className="flex flex-wrap flex-row gap-6 justify-center mx-auto">
 
           <Prize_card
-            cash="10000"
+            cash=". . ."
             prize="gold"
             text_color="text-yellow-400"
             prize_name="1st Prize"
             prize_description="For the best presentation of the project"
           />
           <Prize_card
-            cash="7000"
+            cash=". . ."
             prize="silver"
             text_color="text-gray-400"
             prize_name="2nd Prize"
             prize_description="For the best presentation of the project"
           />
           <Prize_card
-            cash="5000"
+            cash=". . ."
             prize="bronze"
             text_color="text-amber-800"
             prize_name="3rd Prize"
@@ -40,10 +41,10 @@ export default class Prize extends Component {
 function Prize_card(props) {
   return (
     <>
-      <div className="transform max-w-sm bg-brochblack shadow-lg overflow-hidden flex flex-col md:flex-row transition duration-200 w-60 hover:scale-105 md:pb-2 sm:w-72 md:w-80">
-        <div className="w-full h-52 sm:h-64 md:h-68 lg:h-80">
+      <div className="transform max-w-sm bg-brochblack shadow-lg overflow-hidden flex flex-col md:flex-row transition duration-1000 hover:scale-105 md:pb-2 w-80 sm:w-72 md:w-72 lg:w-[21rem] rounded-lg">
+        <div className="w-full h-56 sm:h-64 md:h-68 lg:h-80">
           <img
-            className="p-3 w-24 sm:w-32 lg:w-40 mx-auto"
+            className="p-3 w-28 sm:w-32 lg:w-40 mx-auto"
             src={`../${props.prize}-cup.gif`}
             alt="placholder"
           ></img>

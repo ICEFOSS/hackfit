@@ -1,9 +1,9 @@
 export default function Speaker_card(props) {
   return (
     <>
-      <div className="max-w-sm bg-white border border-gray-200 my-1 mx-1 w-80 sm:w-60 md:w-72 lg:w-72">
+      <div className="max-w-sm bg-gray-200 bg-opacity-70 rounded-2xl  border border-gray-200 my-1 mx-1 w-80 sm:w-72 md:w-72 lg:w-[21rem]">
         <div className="col-span-12 md:col-span-6 lg:col-span-3 xl:col-span-2 self-center">
-          <img className="mb-3 w-40 md:w-40 lg:w-56 aspect-auto shadow-lg mx-auto" src={props.profile_img} alt="Bonnie image" />
+          <img className="my-3 w-40 md:w-48 rounded-full shadow-lg mx-auto" src={props.profile_img} alt="Bonnie image" />
           <h3 className="text-3xl font-medium text-gray-900 text-center">{props.name}</h3>
           <h4 className="text-lg text-gray-900 text-center">{props.designation}</h4>
         </div>
@@ -95,4 +95,85 @@ export function Github_svg(props) {
       ></path>
     </svg>
   )
+}
+ export function Instagram_svg(props){
+  let svg_active_style = `visible`;
+  if (props.isActive == false) {
+    svg_active_style = 'invisible';
+  } else {
+    svg_active_style = 'visible';
+  }
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      className={`w-6 md:w-8 lg:w-10 aspect-ratio-square mt-1 ${svg_active_style}`}
+      viewBox="0 0 48 48"
+    >
+      <radialGradient
+        id="yOrnnhliCrdS2gy~4tD8ma"
+        cx="19.38"
+        cy="42.035"
+        r="44.899"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop offset="0" stopColor="#fd5"></stop>
+        <stop offset="0.328" stopColor="#ff543f"></stop>
+        <stop offset="0.348" stopColor="#fc5245"></stop>
+        <stop offset="0.504" stopColor="#e64771"></stop>
+        <stop offset="0.643" stopColor="#d53e91"></stop>
+        <stop offset="0.761" stopColor="#cc39a4"></stop>
+        <stop offset="0.841" stopColor="#c837ab"></stop>
+      </radialGradient>
+      <path
+        fill="url(#yOrnnhliCrdS2gy~4tD8ma)"
+        d="M34.017 41.99l-20 .019c-4.4.004-8.003-3.592-8.008-7.992l-.019-20c-.004-4.4 3.592-8.003 7.992-8.008l20-.019c4.4-.004 8.003 3.592 8.008 7.992l.019 20c.005 4.401-3.592 8.004-7.992 8.008z"
+      ></path>
+      <radialGradient
+        id="yOrnnhliCrdS2gy~4tD8mb"
+        cx="11.786"
+        cy="5.54"
+        r="29.813"
+        gradientTransform="matrix(1 0 0 .6663 0 1.849)"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop offset="0" stopColor="#4168c9"></stop>
+        <stop offset="0.999" stopColor="#4168c9" stopOpacity="0"></stop>
+      </radialGradient>
+      <path
+        fill="url(#yOrnnhliCrdS2gy~4tD8mb)"
+        d="M34.017 41.99l-20 .019c-4.4.004-8.003-3.592-8.008-7.992l-.019-20c-.004-4.4 3.592-8.003 7.992-8.008l20-.019c4.4-.004 8.003 3.592 8.008 7.992l.019 20c.005 4.401-3.592 8.004-7.992 8.008z"
+      ></path>
+      <path
+        fill="#fff"
+        d="M24 31c-3.859 0-7-3.14-7-7s3.141-7 7-7 7 3.14 7 7-3.141 7-7 7zm0-12c-2.757 0-5 2.243-5 5s2.243 5 5 5 5-2.243 5-5-2.243-5-5-5z"
+      ></path>
+      <circle cx="31.5" cy="16.5" r="1.5" fill="#fff"></circle>
+      <path
+        fill="#fff"
+        d="M30 37H18c-3.859 0-7-3.14-7-7V18c0-3.86 3.141-7 7-7h12c3.859 0 7 3.14 7 7v12c0 3.86-3.141 7-7 7zM18 13c-2.757 0-5 2.243-5 5v12c0 2.757 2.243 5 5 5h12c2.757 0 5-2.243 5-5V18c0-2.757-2.243-5-5-5H18z"
+      ></path>
+    </svg>
+  );
+ }
+
+export function Facebook_svg(props){
+  let svg_active_style = `visible`;
+  if (props.isActive == false) {
+    svg_active_style = 'invisible';
+  } else {
+    svg_active_style = 'visible';
+  }
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      className={`w-6 md:w-8 lg:w-10 aspect-ratio-square mt-1 ${svg_active_style}`}
+      viewBox="0 0 48 48"
+    >
+      <path fill="#039be5" d="M24 5a19 19 0 100 38 19 19 0 100-38z"></path>
+      <path
+        fill="#fff"
+        d="M26.572 29.036h4.917l.772-4.995h-5.69v-2.73c0-2.075.678-3.915 2.619-3.915h3.119v-4.359c-.548-.074-1.707-.236-3.897-.236-4.573 0-7.254 2.415-7.254 7.917v3.323h-4.701v4.995h4.701v13.729c.931.14 1.874.235 2.842.235.875 0 1.729-.08 2.572-.194v-13.77z"
+      ></path>
+    </svg>
+  );
 }

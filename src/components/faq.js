@@ -1,10 +1,11 @@
 export default function Faq() {
   return (
     <div>
-      <section className="text-gray-700 ml-0 md:ml-32">
+      <section className="text-gray-700 ml-0 md:ml-32 mt-10"
+        id="FAQ">
         <div className="container px-5 py-10 mx-auto">
           <div className="text-center mb-6">
-            <h3 className="text-center text-5xl sm:text-6xl leading-normal tracking-tight text-gray-900">
+            <h3 className="text-center text-5xl md:text-6xl leading-normal tracking-tight text-gray-900">
               Frequently Asked <span className="text-gray-300">Questions</span>
             </h3>
           </div>
@@ -65,12 +66,12 @@ function Each_faq_bar(props) {
     <>
 
       <details className="mb-4">
-        <summary className="text-2xl sm:text-3xl rounded-t transition duration-200 hover:scale-105 bg-gray-200 py-2 px-4">
+        <summary className="text-xl sm:text-2xl rounded-t transition duration-200 hover:scale-105 bg-gray-200 py-2 px-4">
           {props.question}
         </summary>
 
         <p
-          className="text-xl md:text-2xl bg-slate-300 rounded-b p-4 px-6"
+          className="text-lg md:text-xl bg-slate-300 rounded-b p-4 px-6"
           style={{ fontFamily: "sans-serif" }}
         >
           {props.answer}
