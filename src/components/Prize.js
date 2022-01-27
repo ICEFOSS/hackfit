@@ -12,21 +12,21 @@ export default class Prize extends Component {
         <div className="flex flex-wrap flex-row gap-6 justify-center mx-auto">
 
           <Prize_card
-            cash="10000"
+            cash=". . ."
             prize="gold"
             text_color="text-yellow-400"
             prize_name="1st Prize"
             prize_description="For the best presentation of the project"
           />
           <Prize_card
-            cash="7000"
+            cash=". . ."
             prize="silver"
             text_color="text-gray-400"
             prize_name="2nd Prize"
             prize_description="For the best presentation of the project"
           />
           <Prize_card
-            cash="5000"
+            cash=". . ."
             prize="bronze"
             text_color="text-amber-800"
             prize_name="3rd Prize"
