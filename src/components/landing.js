@@ -8,10 +8,7 @@ export default function Landing() {
             <span>20TH - 30TH JAN 2022</span>
           </h1>
           <p className="text-lg max-w-md">
-            Explicabo esse amet tempora quibusdam laudantium, laborum eaque
-            magnam fugiat hic? Esse dicta aliquid error repudiandae earum
-            suscipit fugiat molestias, veniam, vel architecto veritatis delectus
-            repellat modi impedit sequi.
+          HACKFIT is a 36-hour Hackathon conducted as part of ICEFOSS 2022 commencing from the 3rd & 4th of March 2022.
           </p>
           <button className="inline-block mt-10 px-10 py-3 bg-red-500 text-lg text-white">
             REGISTER NOW

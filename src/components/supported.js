@@ -10,21 +10,21 @@ export default function Supported() {
 
           <Supporters_each_section
             supporter="ACM FISAT"
-            title="Go around the world"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            title="ACM FISAT"
+            description="ACM, The Association for Computing Machinery, the world's largest educational and scientific computing society, delivers resources that advance computing as a science and a profession. ACM brings together computing educators, researchers, and professionals to inspire dialogue, share resources, and address the field's challenges. "
             link="#"
           />
 
           <Supporters_each_section
             supporter="ICEFOSS"
-            title="Go around the world"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            title="ICEFOSS"
+            description="ICEFOSS is a Free Software Conference organized by FISAT Free Software Cell (FFSC). ICEFOSS 2022, scheduled on March 3,4 - 2022 includes Workshops covering different aspects of Free Software. The purpose of ICEFOSS is to promote and encourage the use of free and open-source software among enthusiasts."
             link="#"
           />
           <Supporters_each_section
             supporter="FFSC"
-            title="Go around the world"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            title="FFSC"
+            description="FISAT Free Software Cell (FFSC), Federal Institute of Science and Technology (FISAT) was established in 2002 by Federal Bank Officers' Association Educational Society (FBOAES). The institution is accredited by NAAC with 'A' Grade. Five B.Tech branches are accredited by NBA and the institution also received the coveted ISO 9001:2015 certification."
             link="#"
           />
 
