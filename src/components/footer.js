@@ -51,10 +51,10 @@ export default function Footer() {
                                 <a href="" target="_blank" rel="noreferrer" aria-label="Linkedin" className="text-gray-900">
                                     <Linkedin_svg />
                                 </a>
-                                <a href="" target="_blank" rel="noreferrer" aria-label="Instagram" className="text-pink-500">
+                                <a href="" target="_blank" rel="noreferrer" aria-label="Instagram" className="text-pink-500 md:mt-0 mt-2">
                                     <Instagram_svg />
                                 </a>
-                                <a href="" target="_blank" rel="noreferrer" aria-label="Facebook" className="text-blue-500">
+                                <a href="" target="_blank" rel="noreferrer" aria-label="Facebook" className="text-blue-500 sm:mt-0 mt-2">
                                     <Facebook_svg />
                                 </a>
                             </div>
