@@ -3,14 +3,14 @@ import Speaker_card from "./speaker_card";
 export default function Speaker() {
     return (
 
-        <section className="ml-0 md:ml-36 mt-28"
+        <section className="ml-0 md:ml-36"
             id="Speakers">
-            <div className="bg-brochgreen text-white py-8">
+            <div className=" text-white py-8">
                 <h1 className="mx-6 my-1 md:my-2 lg:my-4 font-pixe text-center text-white text-5xl md:text-6xl sm:mx-0">
                     Speakers
                 </h1>
 
-                <div className="w-full bg-brochgreen">
+                <div className="w-full ">
                     <section className="max-w-full mx-auto px-4 sm:px-6 lg:px-4 py-12">
                         <div className="flex flex-wrap flex-row justify-evenly gap-6 lg:mx-20 xl:mx-32">
                             {

@@ -1,8 +1,8 @@
-import { Linkedin_svg, Twitter_svg,Instagram_svg,Facebook_svg } from "./speaker_card"
+import { Linkedin_svg, Twitter_svg, Instagram_svg, Facebook_svg } from "./speaker_card"
 export default function Footer() {
     return (
         <div className=" bg-gray-800">
-            <footer className="text-center ml-0 md:ml-36 mt-36">
+            <footer className="text-center ml-0 md:ml-36">
                 <div className="max-w-screen-xl px-4 py-12 mx-auto sm:px-6 lg:px-8">
                     <div className="max-w-3xl mx-auto space-y-6">
                         <h2 className="text-3xl font-semibold leading-9 tracking-tight text-brochwhite sm:text-4xl sm:leading-10">Contact</h2>
@@ -51,10 +51,10 @@ export default function Footer() {
                                 <a href="" target="_blank" rel="noreferrer" aria-label="Linkedin" className="text-gray-900">
                                     <Linkedin_svg />
                                 </a>
-                                <a href="" target="_blank" rel="noreferrer" aria-label="Instagram" className="text-pink-500">
+                                <a href="" target="_blank" rel="noreferrer" aria-label="Instagram" className="text-pink-500 md:mt-0 mt-2">
                                     <Instagram_svg />
                                 </a>
-                                <a href="" target="_blank" rel="noreferrer" aria-label="Facebook" className="text-blue-500">
+                                <a href="" target="_blank" rel="noreferrer" aria-label="Facebook" className="text-blue-500 sm:mt-0 mt-2">
                                     <Facebook_svg />
                                 </a>
                             </div>
