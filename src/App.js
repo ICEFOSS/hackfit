@@ -14,8 +14,8 @@ const App = () => {
     <div className="font-sans text-white bg-brochgreen">
       <Nav />
       <Landing />
-      <Supported />
       <About />
+      <Supported />
       <Prizes />
       <Speaker />
       <Schedule />

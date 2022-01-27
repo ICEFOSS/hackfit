@@ -5,7 +5,7 @@ export default function Supported() {
       id="Supporters">
       <div className="bg-brochgreen mx-auto px-5 lg:px-20">
         <h1 className="mx-6 font-pixe text-center text-white text-5xl md:text-6xl sm:text-center sm:mx-0">
-          Suppoters
+          Supporters
         </h1>
         <div className="mt-16 justify-center text-black flex flex-wrap flex-row md:flex-row-mx-1 gap-5">
 
