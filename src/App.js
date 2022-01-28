@@ -3,7 +3,7 @@ import Prizes from "./components/Prize";
 import Nav from "./components/nav";
 import Speaker from "./components/speaker";
 import Faq from "./components/faq";
-import Supported from "./components/supported";
+import Supporter from "./components/supporter";
 import Mentor from './components/mentor'
 import Schedule from "./components/schedule";
 import Sponsors from "./components/sponsors";
@@ -26,7 +26,7 @@ const App = () => {
       </section>
       <div className="spacer layer1" />
       <section className=' from-brochgreen to-green-600 bg-gradient-to-t'>
-        <Supported />
+        <Supporter />
       </section>
       <div className="spacer layer1" />
       <section className='from-brochgreen to-green-600 bg-gradient-to-t'>
