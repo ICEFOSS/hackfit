@@ -21,14 +21,14 @@ export default class Prize extends Component {
           <Prize_card
             cash=". . ."
             prize="silver"
-            text_color="text-gray-400"
+            text_color="text-gray-300"
             prize_name="2nd Prize"
             prize_description="For the best presentation of the project"
           />
           <Prize_card
             cash=". . ."
             prize="bronze"
-            text_color="text-amber-800"
+            text_color="text-amber-500"
             prize_name="3rd Prize"
             prize_description="For the best presentation of the project"
           />
@@ -41,15 +41,15 @@ export default class Prize extends Component {
 function Prize_card(props) {
   return (
     <>
-      <div className="transform max-w-sm bg-brochblack shadow-lg overflow-hidden flex flex-col md:flex-row transition duration-1000 hover:scale-105 md:pb-2 w-80 sm:w-72 md:w-72 lg:w-[21rem] rounded-lg">
+      <div className="transform max-w-sm bg-brochblack shadow-lg overflow-hidden flex flex-col md:flex-row transition duration-1000 hover:scale-105 md:pb-2 w-80 sm:w-72 md:w-72 lg:w-[21rem] rounded-lg bg-opacity-40">
         <div className="w-full h-56 sm:h-64 md:h-68 lg:h-80">
           <img
             className="p-3 w-28 sm:w-32 lg:w-40 mx-auto"
             src={`/assets/${props.prize}-cup.gif`}
             alt="placholder"
           />
-          <p className="text-center text-white font-bold text-3xl  sm:text-4xl md:text-5xl p-2">
-            {props.cash} <span className="text-green-600">$</span>
+          <p className="text-center text-white font-bold text-3xl  sm:text-4xl md:text-5xl p-2"><span className="text-green-600 mr-2">₹</span>
+            {props.cash}
           </p>
           <p className={`text-center ${props.text_color} font-bold text-xl sm:text-2xl`}>
             {props.prize_name}

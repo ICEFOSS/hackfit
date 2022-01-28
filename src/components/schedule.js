@@ -19,7 +19,7 @@ export default function Schedule() {
                   <div className="order-1 w-5/12"></div>
                   <div className="order-1 w-5/12 px-1 py-4 text-right">
                     <p className="mb-3 md:text-xl text-base text-yellow-300 font-pixe">
-                      13 Jan 2022
+                      31 Jan 2022
                     </p>
                     <h4 className="mb-3 font-pixe text-lg md:text-2xl">
                       Registration Starts
@@ -35,7 +35,7 @@ export default function Schedule() {
                   <div className="order-1 w-5/12"></div>
                   <div className="order-1  w-5/12 px-1 py-4 text-left">
                     <p className="mb-3 md:text-xl text-base text-yellow-300 font-pixe">
-                      2 FEB, 2022
+                      20 FEB, 2022
                     </p>
                     <h4 className="mb-3 font-pixe text-lg md:text-2xl">
                       Registration Ends
