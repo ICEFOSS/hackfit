@@ -41,29 +41,38 @@ export default function Speaker() {
 const speakers = [
     {
         "profile_img": "https://th.bing.com/th/id/OIP.9KLizG3BPrxus1rmPG9jcAHaG1?w=236&h=218&c=7&r=0&o=5&dpr=1.25&pid=1.7",
-        "name": "Saurabh",
-        "designation": "CEO",
+        "name": "Name 1",
+        "designation": "Designation",
         "describe": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "date": "12 Jan",
-        "time": "10:00 AM",
-        "session_link": "https://www.youtube.com"
+        "linkedin": "https://www.linkedin.com/in/",
+        "github": "https://www.github.com/",
+        "twitter": "https://www.twitter.com/"
     },
     {
         "profile_img": "https://th.bing.com/th/id/OIP.9KLizG3BPrxus1rmPG9jcAHaG1?w=236&h=218&c=7&r=0&o=5&dpr=1.25&pid=1.7",
-        "name": "Saurabh",
-        "designation": "CEO",
-        "describe": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        "name": "Name 2",
+        "designation": "Designation",
+        "describe": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "linkedin": "https://www.linkedin.com/in/",
+        "github": "https://www.github.com/",
+        "twitter": "https://www.twitter.com/"
     },
     {
         "profile_img": "https://th.bing.com/th/id/OIP.9KLizG3BPrxus1rmPG9jcAHaG1?w=236&h=218&c=7&r=0&o=5&dpr=1.25&pid=1.7",
-        "name": "Saurabh",
-        "designation": "CEO",
-        "describe": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        "name": "Name 3",
+        "designation": "Designation",
+        "describe": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "linkedin": "https://www.linkedin.com/in/",
+        "github": "https://www.github.com/",
+        "twitter": "https://www.twitter.com/"
     },
     {
         "profile_img": "https://th.bing.com/th/id/OIP.9KLizG3BPrxus1rmPG9jcAHaG1?w=236&h=218&c=7&r=0&o=5&dpr=1.25&pid=1.7",
-        "name": "Saurabh",
-        "designation": "CEO",
-        "describe": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        "name": "Name 4",
+        "designation": "Designation",
+        "describe": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "linkedin": "https://www.linkedin.com/in/",
+        "github": "https://www.github.com/",
+        "twitter": "https://www.twitter.com/"
     },
 ]

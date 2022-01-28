@@ -1,6 +1,6 @@
 import React, { Component, useState, useMemo } from 'react'
-import './mentor.css'
-import Present from './mentors.json'
+import '../styles/mentor.css'
+import Mentors_json from '../../src/json/mentors.json'
 import { Linkedin_svg, Twitter_svg } from './speaker_card'
 import { white_github_svg } from './constants'
 
@@ -20,7 +20,7 @@ export default class Mentor extends Component {
               <section className="max-w-xl sm:max-w-2xl lg:max-w-4xl xl:max-w-5xl mx-auto px-4 py-6 pb-12">
                 <div className="flex flex-row flex-wrap justify-evenly">
 
-                  {Present.map((item) => (
+                  {Mentors_json.map((item) => (
                     <Mentor_each_section
                       item={item}
                     />
