@@ -9,8 +9,8 @@ import Schedule from "./components/schedule";
 import Sponsors from "./components/sponsors";
 import Footer from "./components/footer";
 import About from "./components/about";
+import './styles/App.css';
 
-import './App.css';
 const App = () => {
   return (
     <div className="font-sans text-white bg-green-600">

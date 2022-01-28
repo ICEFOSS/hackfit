@@ -45,9 +45,9 @@ function Prize_card(props) {
         <div className="w-full h-56 sm:h-64 md:h-68 lg:h-80">
           <img
             className="p-3 w-28 sm:w-32 lg:w-40 mx-auto"
-            src={`../${props.prize}-cup.gif`}
+            src={`/assets/${props.prize}-cup.gif`}
             alt="placholder"
-          ></img>
+          />
           <p className="text-center text-white font-bold text-3xl  sm:text-4xl md:text-5xl p-2">
             {props.cash} <span className="text-green-600">$</span>
           </p>
