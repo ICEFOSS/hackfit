@@ -9,6 +9,7 @@ import Schedule from "./components/schedule";
 import Sponsors from "./components/sponsors";
 import Footer from "./components/footer";
 import About from "./components/about";
+import ProbState from "./components/prob_statement";
 import './styles/App.css';
 
 const App = () => {
@@ -19,6 +20,10 @@ const App = () => {
       </section>
       <section className='from-brochgreen to-green-600 bg-gradient-to-t'>
         <Landing />
+      </section>
+      <div className="spacer layer1" />
+      <section className='from-brochgreen to-green-600 bg-gradient-to-t'>
+        <ProbState />
       </section>
       <div className="spacer layer1" />
       <section className='from-brochgreen to-green-600 bg-gradient-to-t'>
