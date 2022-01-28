@@ -2,72 +2,16 @@
   {
     "key": 1,
     "image": "https://th.bing.com/th/id/OIP.9KLizG3BPrxus1rmPG9jcAHaG1?w=236&h=218&c=7&r=0&o=5&dpr=1.25&pid=1.7",
-    "name": "Name 1",
-    "post": "Designation",
+    "name": "",
+    "post": "Coming Soon",
     "linkedin": "https://www.linkedin.com/in/",
     "twitter": "https://www.twitter.com/"
   },
   {
     "key": 2,
     "image": "https://th.bing.com/th/id/OIP.9KLizG3BPrxus1rmPG9jcAHaG1?w=236&h=218&c=7&r=0&o=5&dpr=2.25&pid=2.7",
-    "name": "Name 2",
-    "post": "Designation",
-    "linkedin": "https://www.linkedin.com/in/",
-    "twitter": "https://www.twitter.com/"
-  },
-  {
-    "key": 3,
-    "image": "https://th.bing.com/th/id/OIP.9KLizG3BPrxus1rmPG9jcAHaG1?w=236&h=218&c=7&r=0&o=5&dpr=3.25&pid=3.7",
-    "name": "Name 3",
-    "post": "Designation",
-    "linkedin": "https://www.linkedin.com/in/",
-    "twitter": "https://www.twitter.com/"
-  },
-  {
-    "key": 4,
-    "image": "https://th.bing.com/th/id/OIP.9KLizG3BPrxus1rmPG9jcAHaG1?w=236&h=218&c=7&r=0&o=5&dpr=4.25&pid=4.7",
-    "name": "Name 4",
-    "post": "Designation",
-    "linkedin": "https://www.linkedin.com/in/",
-    "twitter": "https://www.twitter.com/"
-  },
-  {
-    "key": 5,
-    "image": "https://th.bing.com/th/id/OIP.9KLizG3BPrxus1rmPG9jcAHaG1?w=236&h=218&c=7&r=0&o=5&dpr=5.25&pid=5.7",
-    "name": "Name 5",
-    "post": "Designation",
-    "linkedin": "https://www.linkedin.com/in/",
-    "twitter": "https://www.twitter.com/"
-  },
-  {
-    "key": 6,
-    "image": "https://th.bing.com/th/id/OIP.9KLizG3BPrxus1rmPG9jcAHaG1?w=236&h=218&c=7&r=0&o=5&dpr=6.25&pid=6.7",
-    "name": "Name 6",
-    "post": "Designation",
-    "linkedin": "https://www.linkedin.com/in/",
-    "twitter": "https://www.twitter.com/"
-  },
-  {
-    "key": 7,
-    "image": "https://th.bing.com/th/id/OIP.9KLizG3BPrxus1rmPG9jcAHaG1?w=236&h=218&c=7&r=0&o=5&dpr=7.25&pid=7.7",
-    "name": "Name 7",
-    "post": "Designation",
-    "linkedin": "https://www.linkedin.com/in/",
-    "twitter": "https://www.twitter.com/"
-  },
-  {
-    "key": 8,
-    "image": "https://th.bing.com/th/id/OIP.9KLizG3BPrxus1rmPG9jcAHaG1?w=236&h=218&c=7&r=0&o=5&dpr=8.25&pid=8.7",
-    "name": "Name 8",
-    "post": "Designation",
-    "linkedin": "https://www.linkedin.com/in/",
-    "twitter": "https://www.twitter.com/"
-  },
-  {
-    "key": 9,
-    "image": "https://th.bing.com/th/id/OIP.9KLizG3BPrxus1rmPG9jcAHaG1?w=236&h=218&c=7&r=0&o=5&dpr=9.25&pid=9.7",
-    "name": "Name 9",
-    "post": "Designation",
+    "name": "",
+    "post": "Coming Soon",
     "linkedin": "https://www.linkedin.com/in/",
     "twitter": "https://www.twitter.com/"
   }

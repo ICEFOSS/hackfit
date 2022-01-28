@@ -41,38 +41,11 @@ export default function Speaker() {
 const speakers = [
     {
         "profile_img": "https://th.bing.com/th/id/OIP.9KLizG3BPrxus1rmPG9jcAHaG1?w=236&h=218&c=7&r=0&o=5&dpr=1.25&pid=1.7",
-        "name": "Name 1",
-        "designation": "Designation",
+        "name": "",
+        "designation": "Coming Soon",
         "describe": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "linkedin": "https://www.linkedin.com/in/",
         "github": "https://www.github.com/",
         "twitter": "https://www.twitter.com/"
-    },
-    {
-        "profile_img": "https://th.bing.com/th/id/OIP.9KLizG3BPrxus1rmPG9jcAHaG1?w=236&h=218&c=7&r=0&o=5&dpr=1.25&pid=1.7",
-        "name": "Name 2",
-        "designation": "Designation",
-        "describe": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "linkedin": "https://www.linkedin.com/in/",
-        "github": "https://www.github.com/",
-        "twitter": "https://www.twitter.com/"
-    },
-    {
-        "profile_img": "https://th.bing.com/th/id/OIP.9KLizG3BPrxus1rmPG9jcAHaG1?w=236&h=218&c=7&r=0&o=5&dpr=1.25&pid=1.7",
-        "name": "Name 3",
-        "designation": "Designation",
-        "describe": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "linkedin": "https://www.linkedin.com/in/",
-        "github": "https://www.github.com/",
-        "twitter": "https://www.twitter.com/"
-    },
-    {
-        "profile_img": "https://th.bing.com/th/id/OIP.9KLizG3BPrxus1rmPG9jcAHaG1?w=236&h=218&c=7&r=0&o=5&dpr=1.25&pid=1.7",
-        "name": "Name 4",
-        "designation": "Designation",
-        "describe": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "linkedin": "https://www.linkedin.com/in/",
-        "github": "https://www.github.com/",
-        "twitter": "https://www.twitter.com/"
-    },
+    }
 ]

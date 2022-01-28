@@ -62,7 +62,6 @@ function Mentor_each_section(props) {
               <a href={props.item.github} target="__blank">
                 <Twitter_svg />
               </a>
-              {/*<p className="mx-2"></p>*/}
             </div>
           </div>
 
