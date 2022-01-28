@@ -1,6 +1,6 @@
 import React from "react";
 import { stayfit_with_social_distancing, mental_health_issues, report_drug_trafficking } from './constants'
-import Modal from "./prob_stmt_model";
+import Modal from "./prob_modal";
 
 export default function ProbState() {
     return (
@@ -77,6 +77,7 @@ function Supporters_each_section(props) {
                             </p>
 
                             <Modal />
+                            {/* <Modal openButtonText="hi" children={undefined} /> */}
                         </div>
                     </div>
                 </a>
