@@ -41,7 +41,7 @@ export default class Prize extends Component {
 function Prize_card(props) {
   return (
     <>
-      <div className="transform max-w-sm bg-brochblack shadow-lg overflow-hidden flex flex-col md:flex-row transition duration-1000 hover:scale-105 md:pb-2 w-80 sm:w-72 md:w-72 lg:w-[21rem] rounded-lg">
+      <div className="transform max-w-sm bg-brochblack shadow-lg overflow-hidden flex flex-col md:flex-row transition duration-1000 hover:scale-105 md:pb-2 w-80 sm:w-72 md:w-72 lg:w-[21rem] rounded-lg bg-opacity-60">
         <div className="w-full h-56 sm:h-64 md:h-68 lg:h-80">
           <img
             className="p-3 w-28 sm:w-32 lg:w-40 mx-auto"
