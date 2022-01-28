@@ -22,7 +22,6 @@
 .main-test:focus,
 .main-test:active {
   background-image: none !important;
-  background-color: rgba(0, 0, 0, 1);
   background-color: #2e2e2e;
   color: white;
   position: relative;
