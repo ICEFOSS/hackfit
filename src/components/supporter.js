@@ -8,7 +8,7 @@ export default function Supported() {
         <h1 className="mx-6 font-pixe text-center text-brochwhite text-5xl md:text-6xl sm:text-center sm:mx-0">
           Supporters
         </h1>
-        <div className="mt-16 justify-center text-black flex flex-wrap flex-row md:flex-row-mx-1 gap-5">
+        <div className="mt-16 justify-center text-gray-800 flex flex-wrap flex-row md:flex-row-mx-1 gap-5">
 
           <Supporters_each_section
             supporter="ACM FISAT"
@@ -47,7 +47,7 @@ function Supporters_each_section(props) {
         <a className="relative block group h-[455px] active:h-auto hover:h-auto sm:h-[28rem] sm:hover:h-[28rem]">
           <span className="absolute inset-0 border-2 border-white bg-opacity-60 border-dashed"></span>
 
-          <div className="relative flex items-end h-full transition-transform transform bg-white bg-opacity-60 border-2 border-black group-hover:-translate-x-2 group-hover:-translate-y-2">
+          <div className="relative flex items-end h-full transition-transform transform bg-white bg-opacity-50 border-2 border-black group-hover:-translate-x-2 group-hover:-translate-y-2">
 
             <div className="px-8 pb-8 transition-opacity group-hover:opacity-0 group-hover:absolute">
               {/* <svg id="visual" viewBox="0 0 540 960" width="243" height="352" xmlns="http://www.w3.org/2000/svg" version="1.1"><g transform="translate(227.63117137868107 491.8769686366773)"><path d="M138.8 -122.1C183.8 -93.8 226.9 -46.9 221.8 -5.1C216.8 36.8 163.5 73.5 118.5 96.4C73.5 119.2 36.8 128.1 -5.3 133.4C-47.4 138.7 -94.8 140.4 -117.3 117.6C-139.8 94.8 -137.4 47.4 -137.4 0C-137.4 -47.4 -139.8 -94.8 -117.3 -123.1C-94.8 -151.4 -47.4 -160.7 -0.2 -160.5C46.9 -160.2 93.8 -150.5 138.8 -122.1" fill="#ddd"></path></g></svg> */}

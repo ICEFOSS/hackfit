@@ -11,19 +11,19 @@ export default function Footer() {
                             <div className="flex flex-col md:flex-row flex-wrap justify-center">
                                 <div className="Venue m-2">
                                     <h3 className="text-brochwhite text-lg font-semibold">Mobile</h3>
-                                    <p className="max-w-lg mx-auto text-xs text-gray-500">
-                                        Lorem ipsum dolor.
+                                    <p className="max-w-xs mx-auto text-md text-gray-200">
+                                        +91 97453 44089
                                     </p>
-                                    <p className="max-w-lg mx-auto text-xs text-gray-500">
-                                        Lorem ipsum dolor.
+                                    <p className="max-w-xs mx-auto text-md text-gray-200">
+                                        +91 82818 95254
                                     </p>
                                 </div>
                             </div>
                             <div className="flex flex-col md:flex-row flex-wrap justify-center">
                                 <div className="Venue m-2">
                                     <h3 className="text-brochwhite text-lg font-semibold">Venue</h3>
-                                    <p className="max-w-lg mx-auto text-xs text-gray-500">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit..
+                                    <p className="max-w-xs mx-auto text-md text-gray-200">
+                                        Federal Institute of Science And Technology - Hormis Nagar, Mookkannoor, Angamaly, Kerala 683577
                                     </p>
                                 </div>
                             </div>
@@ -31,11 +31,8 @@ export default function Footer() {
                             <div className="flex flex-col md:flex-row flex-wrap justify-center">
                                 <div className="Venue m-2">
                                     <h3 className="text-brochwhite text-lg font-semibold">Email</h3>
-                                    <p className="max-w-lg mx-auto text-xs text-gray-500">
-                                        Lorem ipsum dolor sit.
-                                    </p>
-                                    <p className="max-w-lg mx-auto text-xs text-gray-500">
-                                        Lorem ipsum dolor sit.
+                                    <p className="max-w-lg mx-auto text-md text-gray-200">
+                                        icefoss<span className=" font-serif">@</span>fisat.ac.in
                                     </p>
                                 </div>
                             </div>
@@ -44,22 +41,22 @@ export default function Footer() {
 
                         <div className="social-media">
                             <div className="flex justify-center space-x-6">
-                                <a href="" target="_blank" rel="noreferrer" aria-label="Twitter" className="text-blue-500">
+                                <a href="" target="blank" rel="noreferrer" aria-label="Twitter" className="text-blue-500">
                                     <Twitter_svg />
                                 </a>
 
-                                <a href="" target="_blank" rel="noreferrer" aria-label="Linkedin" className="text-gray-900">
+                                <a href="" target="blank" rel="noreferrer" aria-label="Linkedin" className="text-gray-900">
                                     <Linkedin_svg />
                                 </a>
-                                <a href="" target="_blank" rel="noreferrer" aria-label="Instagram" className="text-pink-500 md:mt-0 mt-2">
+                                <a href="https://www.instagram.com/icefossfisat/" target="blank" rel="noreferrer" aria-label="Instagram" className="text-pink-500 md:mt-0 mt-2">
                                     <Instagram_svg />
                                 </a>
-                                <a href="" target="_blank" rel="noreferrer" aria-label="Facebook" className="text-blue-500 sm:mt-0 mt-2">
+                                <a href="https://www.facebook.com/icefossfisat/" target="blank" rel="noreferrer" aria-label="Facebook" className="text-blue-500 sm:mt-0 mt-2">
                                     <Facebook_svg />
                                 </a>
                             </div>
                         </div>
-                        <p className="text-xs text-center font-medium mx-auto">&copy; 2022 Hackfit</p>
+                        <p className="text-xs text-center font-medium mx-auto"><span className=" font-serif">&copy;</span> 2022 Hackfit</p>
                     </div>
                 </div>
             </footer>
