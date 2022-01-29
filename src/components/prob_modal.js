@@ -6,6 +6,17 @@ Modal.setAppElement("#root");
 
 export default function ProbModal(props) {
     const [modalIsOpen, setIsOpen] = React.useState(false);
+    const [IsGoingToRegister, setIsGoingToRegister] = React.useState(false);
+    function toggleIsGoingToRegister() {
+        if (IsGoingToRegister) {
+            setIsGoingToRegister(false);
+            return document.getElementById('About').scrollIntoView();
+        }
+    }
+    function greenToggle() {
+        setIsOpen(false);
+        setIsGoingToRegister(true);
+    }
 
     return (
         <div className="App text-white mt-8">
@@ -23,6 +34,7 @@ export default function ProbModal(props) {
                     afterOpen: "content-after",
                     beforeClose: "content-before"
                 }}
+                onAfterClose={toggleIsGoingToRegister}
                 closeTimeoutMS={500}
             >
                 <div className="flex flex-col w-full mx-4 items-center justify-between h-full  text-white">
@@ -43,7 +55,7 @@ export default function ProbModal(props) {
                         <div className="flex flex-row flex-wrap justify-end">
 
                             <button onClick={() => setIsOpen(false)} className="border-2 w-fit bg-red-400 px-2 mt-4 border-brochblack text-brochblack font-bold rounded-sm">Close</button>
-                            <button onClick={() => setIsOpen(false)} className="border-2 ml-4 w-fit bg-green-600 border-gray-700 text-gray-700 font-bold px-2 mt-4 rounded-sm">Agree</button>
+                            <button onClick={greenToggle} className="border-2 ml-4 w-fit bg-green-600 border-gray-700 text-gray-700 font-bold px-2 mt-4 rounded-sm">Register  </button>
                         </div>
                     </div>
                 </div>

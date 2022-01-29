@@ -57,25 +57,30 @@
     background-color: transparent;
 }
 
-div::-webkit-scrollbar {
-    width: 6px;
-}
-div::-webkit-scrollbar-track {
-    background: rgb(172, 172, 172); 
-    border-radius: 50px;    
-}
-div::-webkit-scrollbar-thumb {
-    background-color: rgb(94, 94, 94);
-    border-radius: 50px;
+html {
+    scroll-behavior: smooth;
 }
 
-body::-webkit-scrollbar {
-    width: 12px;
-}
-
-/* @media (min-width:768px) {
+@media (min-width:768px) {
     
-.content-after {
-        margin-left: 9rem;
+    div::-webkit-scrollbar {
+        width: 6px;
     }
-} */
+    div::-webkit-scrollbar-track {
+        background: rgb(172, 172, 172); 
+        border-radius: 50px;    
+    }
+    div::-webkit-scrollbar-thumb {
+        background-color: rgb(94, 94, 94);
+        border-radius: 50px;
+    }
+
+    body::-webkit-scrollbar {
+        width: 12px;
+    }
+
+    
+/* .content-after {
+        margin-left: 9rem;
+    } */
+} 

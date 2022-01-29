@@ -3,6 +3,19 @@ import { stayfit_with_social_distancing, mental_health_issues, report_drug_traff
 import ProbModal from "./prob_modal";
 
 export default function ProbState() {
+    // const [IsGoingToRegister, setIsGoingToRegister] = React.useState(false);
+
+    // function toggleIsGoingToRegister() {
+    //     setIsGoingToRegister(!IsGoingToRegister);
+
+    //     (function scrollToAbout(IsGoingToRegister) {
+    //         if (IsGoingToRegister) {
+    //             document.getElementById('About').scrollIntoView();
+    //             setIsGoingToRegister(false);
+    //         }
+    //     })();
+    // }
+
     return (
 
         <section className="ml-0 md:ml-36"
@@ -16,25 +29,28 @@ export default function ProbState() {
                     <Supporters_each_section
                         id='0'
                         title="mental health issues in adolescents"
-                        description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat facere adipisci quos, sit fugiat officia autem. "
+                        description={`Adolescence can be a risky period for mental health problems because teenagers are going through many changes and challenges in a short period. Globally, one in seven 10-19 year-olds experiences a mental disorder, accounting for 13% of ...`}
                         link="#"
                         svg={mental_health_issues}
+                    // function={this.scrollToAbout}
                     />
 
                     <Supporters_each_section
                         id='1'
                         title="stay fit with social distancing"
-                        description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat facere adipisci quos, sit fugiat officia autem."
+                        description={`In the COVID -19 pandemic situation ,where all of us were forced into our homes and had to quit working out in gyms and public spaces , maintaining workout routines became difficult .And in such a situation, staying fit and eating healthy is ...`}
                         link="#"
                         svg={stayfit_with_social_distancing}
                         top='true'
+                    // function={this.scrollToAbout}
                     />
                     <Supporters_each_section
                         id='2'
                         title="report drug trafficking anonymously"
-                        description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat facere adipisci quos, sit fugiat officia autem."
+                        description={`Due to its proximity to two of the "three key production areas" for opium, India is facing the illegal drugs crisis. But cross-border trafficking explains only part of the illicit drugs trade that runs through the country. The Department of Pharmaceuticals, Ministry of Chemicals and Fertilizers, states that India is the world's largest ...`}
                         link="#"
                         svg={report_drug_trafficking}
+                    // function={this.}
                     />
 
                 </div>
