@@ -30,12 +30,6 @@ opacity: 0;
 
 .content-base {
 position: relative;
-/*
-top: auto;
-left: auto;
-right: auto;
-bottom: auto;
-*/
 margin: 0 auto;
 border: 0;
 outline: 0;
@@ -53,7 +47,9 @@ transition-timing-function: ease-in-out;
 .content-after {
 width: 90%;
 height: 80%;
-background-color: rgba(250, 190, 190, 0.8);
+background-color: rgba(8, 146, 72, 0.8);
+border-radius: 1%;
+z-index: 9999;
 }
 
 .content-before {
@@ -61,3 +57,10 @@ width: 0%;
 height: 0%;
 background-color: transparent;
 }
+
+/* @media (min-width:768px) {
+    
+.content-after {
+        margin-left: 9rem;
+    }
+} */
