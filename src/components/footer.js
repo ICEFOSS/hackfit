@@ -57,6 +57,10 @@ export default function Footer() {
                             </div>
                         </div>
                         <p className="text-xs text-center font-medium mx-auto"><span className=" font-serif">&copy;</span> 2022 Hackfit</p>
+                        <div className="text-xs text-center font-medium mx-auto w-full font-mono"> Created & designed by <a href="https://www.linkedin.com/in/amarjith-raj-b2822a196">  Amarjith Raj</a>, <a href="https://www.linkedin.com/in/amankshihab/"> Aman K Shihab</a>,
+                            <a href="https://www.linkedin.com/in/joel-nickson-0a27721a5/"> Joel Nickson</a>,
+                            <a href="https://www.linkedin.com/in/naveen-b-jacob-229a81182/"> Naveen B Jacob </a> and
+                            <a href="https://www.linkedin.com/in/paul-elias-sojan/"> Paul Elias Sojan</a> </div>
                     </div>
                 </div>
             </footer>
