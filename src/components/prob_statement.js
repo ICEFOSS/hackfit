@@ -6,7 +6,7 @@ export default function ProbState() {
     return (
 
         <section className="ml-0 md:ml-36"
-            id="Supporters">
+            id="PStatement">
             <div className=" mx-auto px-5 lg:px-20">
                 <h1 className="mx-6 font-pixe text-center text-brochwhite text-5xl md:text-6xl sm:text-center sm:mx-0">
                     Problem Statement
