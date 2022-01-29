@@ -14,6 +14,7 @@ export default function ProbState() {
                 <div className="mt-16 justify-center text-gray-200 flex flex-wrap flex-row md:flex-row-mx-1 gap-5">
 
                     <Supporters_each_section
+                        id='0'
                         title="mental health issues in adolescents"
                         description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat facere adipisci quos, sit fugiat officia autem. "
                         link="#"
@@ -21,6 +22,7 @@ export default function ProbState() {
                     />
 
                     <Supporters_each_section
+                        id='1'
                         title="stay fit with social distancing"
                         description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat facere adipisci quos, sit fugiat officia autem."
                         link="#"
@@ -28,6 +30,7 @@ export default function ProbState() {
                         top='true'
                     />
                     <Supporters_each_section
+                        id='2'
                         title="report drug trafficking anonymously"
                         description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat facere adipisci quos, sit fugiat officia autem."
                         link="#"
@@ -76,7 +79,7 @@ function Supporters_each_section(props) {
                                 {props.description}
                             </p>
 
-                            <ProbModal />
+                            <ProbModal id={`${props.id}`} />
                             {/* <Modal openButtonText="hi" children={undefined} /> */}
                         </div>
                     </div>
