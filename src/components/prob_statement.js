@@ -47,7 +47,7 @@ export default function ProbState() {
                     <Supporters_each_section
                         id='2'
                         title="report drug trafficking anonymously"
-                        description={`Due to its proximity to two of the "three key production areas" for opium, India is facing the illegal drugs crisis. But cross-border trafficking explains only part of the illicit drugs trade that runs through the country. The Department of Pharmaceuticals, Ministry of Chemicals and Fertilizers, states that India is the world's largest ...`}
+                        description={`Due to its proximity to two of the "three key production areas" for opium, India is facing the illegal drugs crisis. But cross-border trafficking explains only part of the illicit drugs trade that runs ...`}
                         link="#"
                         svg={report_drug_trafficking}
                     // function={this.}
