@@ -8,7 +8,7 @@ export default function Supported() {
         <h1 className="mx-6 font-pixe text-center text-brochwhite text-5xl md:text-6xl sm:text-center sm:mx-0">
           Supporters
         </h1>
-        <div className="mt-16 justify-center text-gray-800 flex flex-wrap flex-row md:flex-row-mx-1 gap-5">
+        <div className="mt-16 justify-center text-gray-700 flex flex-wrap flex-row md:flex-row-mx-1 gap-5">
 
           <Supporters_each_section
             supporter="ACM FISAT"
@@ -44,7 +44,7 @@ function Supporters_each_section(props) {
   return (
     <>
       <div className="my-1 px-1 md:p-2 w-80 sm:w-80">
-        <a className="relative block group h-[455px] active:h-auto hover:h-auto sm:h-[28rem] sm:hover:h-[28rem]">
+        <a className="relative block group h-[455px] active:h-auto hover:h-auto sm:h-[30rem] sm:hover:h-[30rem]">
           <span className="absolute inset-0 border-2 border-white bg-opacity-60 border-dashed"></span>
 
           <div className="relative flex items-end h-full transition-transform transform bg-white bg-opacity-50 border-2 border-black group-hover:-translate-x-2 group-hover:-translate-y-2">
