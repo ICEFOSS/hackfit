@@ -10,19 +10,19 @@ export default function Footer() {
                         <div className="mt-8 flex flex-col md:flex-row flex-grow flex-wrap sm:gap-x-8 justify-evenly">
                             <div className="flex flex-col md:flex-row flex-wrap justify-center">
                                 <div className="Venue m-2">
-                                    <h3 className="text-brochwhite text-lg font-semibold">Mobile</h3>
-                                    <p className="max-w-xs mx-auto text-md text-gray-200">
+                                    <h3 className="text-white text-lg font-normal underline underline-offset-4 pb-2">Mobile</h3>
+                                    <p className="max-w-xs mx-auto text-xs font-mono text-gray-200">
                                         +91 97453 44089
                                     </p>
-                                    <p className="max-w-xs mx-auto text-md text-gray-200">
+                                    <p className="max-w-xs mx-auto text-xs font-mono text-gray-200">
                                         +91 82818 95254
                                     </p>
                                 </div>
                             </div>
                             <div className="flex flex-col md:flex-row flex-wrap justify-center">
                                 <div className="Venue m-2">
-                                    <h3 className="text-brochwhite text-lg font-semibold">Venue</h3>
-                                    <p className="max-w-xs mx-auto text-md text-gray-200">
+                                    <h3 className="text-white text-lg font-normal underline underline-offset-4 pb-2">Venue</h3>
+                                    <p className="max-w-xs mx-auto text-xs font-mono text-gray-200">
                                         Federal Institute of Science And Technology - Hormis Nagar, Mookkannoor, Angamaly, Kerala 683577
                                     </p>
                                 </div>
@@ -30,8 +30,8 @@ export default function Footer() {
 
                             <div className="flex flex-col md:flex-row flex-wrap justify-center">
                                 <div className="Venue m-2">
-                                    <h3 className="text-brochwhite text-lg font-semibold">Email</h3>
-                                    <p className="max-w-lg mx-auto text-md text-gray-200">
+                                    <h3 className="text-white text-lg font-normal underline underline-offset-4 pb-2">Email</h3>
+                                    <p className="max-w-lg mx-auto text-xs font-mono text-gray-200">
                                         icefoss<span className=" font-serif">@</span>fisat.ac.in
                                     </p>
                                 </div>
@@ -55,6 +55,12 @@ export default function Footer() {
                                     <Facebook_svg />
                                 </a>
                             </div>
+                        </div>
+
+                        <div className="text-xs text-center font-medium mx-auto w-full font-mono"> Created & designed by <a href="https://www.linkedin.com/in/amarjith-raj-b2822a196">  Amarjith Raj</a>, <a href="https://www.linkedin.com/in/amankshihab/"> Aman K Shihab</a>,
+                            <a href="https://www.linkedin.com/in/joel-nickson-0a27721a5/"> Joel Nickson</a>,
+                            <a href="https://www.linkedin.com/in/naveen-b-jacob-229a81182/"> Naveen B Jacob </a> and
+                            <a href="https://www.linkedin.com/in/paul-elias-sojan/"> Paul Elias Sojan</a>
                         </div>
                         <p className="text-xs text-center font-medium mx-auto"><span className=" font-serif">&copy;</span> 2022 Hackfit</p>
                     </div>

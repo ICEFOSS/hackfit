@@ -5,8 +5,8 @@ export default class Prize extends Component {
       <section className=" ml-0 md:ml-36"
         id="Prices">
         <div className="text-center pb-12">
-          <h1 className="text-5xl md:text-6xl font-heading text-white">
-            prizes
+          <h1 className="text-5xl md:text-6xl font-heading text-brochwhite">
+            Prizes
           </h1>
         </div>
         <div className="flex flex-wrap flex-row gap-6 justify-center mx-4 xs:mx-auto">
