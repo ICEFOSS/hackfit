@@ -52,32 +52,32 @@ const all_sponsors = [
   [
     {
       name: "Name",
-      logo: "https://plchldr.co/i/130x50?&bg=85bea2&fc=ffffff&text=Coming Soon",
+      logo: "https://plchldr.co/i/130x50?&bg=85bea2&fc=442233&text=Coming Soon",
       url: "#",
     },
     {
       name: "Name",
-      logo: "https://plchldr.co/i/130x50?&bg=85bea2&fc=ffffff&text=Coming Soon",
+      logo: "https://plchldr.co/i/130x50?&bg=85bea2&fc=442233&text=Coming Soon",
       url: "#",
     },
     {
       name: "Name",
-      logo: "https://plchldr.co/i/130x50?&bg=85bea2&fc=ffffff&text=Coming Soon",
+      logo: "https://plchldr.co/i/130x50?&bg=85bea2&fc=442233&text=Coming Soon",
       url: "#",
     },
     {
       name: "Name",
-      logo: "https://plchldr.co/i/130x50?&bg=85bea2&fc=ffffff&text=Coming Soon",
+      logo: "https://plchldr.co/i/130x50?&bg=85bea2&fc=442233&text=Coming Soon",
       url: "#",
     },
     {
       name: "Name",
-      logo: "https://plchldr.co/i/130x50?&bg=85bea2&fc=ffffff&text=Coming Soon",
+      logo: "https://plchldr.co/i/130x50?&bg=85bea2&fc=442233&text=Coming Soon",
       url: "#",
     },
     {
       name: "Name",
-      logo: "https://plchldr.co/i/130x50?&bg=85bea2&fc=ffffff&text=Coming Soon",
+      logo: "https://plchldr.co/i/130x50?&bg=85bea2&fc=442233&text=Coming Soon",
       url: "#",
     },
   ],
@@ -86,17 +86,17 @@ const all_sponsors = [
   [
     {
       name: "Name",
-      logo: "https://plchldr.co/i/130x50?&bg=85bea2&fc=ffffff&text=Coming Soon",
+      logo: "https://plchldr.co/i/130x50?&bg=85bea2&fc=442233&text=Coming Soon",
       url: "#",
     },
     {
       name: "Name",
-      logo: "https://plchldr.co/i/130x50?&bg=85bea2&fc=ffffff&text=Coming Soon",
+      logo: "https://plchldr.co/i/130x50?&bg=85bea2&fc=442233&text=Coming Soon",
       url: "#",
     },
     {
       name: "Name",
-      logo: "https://plchldr.co/i/130x50?&bg=85bea2&fc=ffffff&text=Coming Soon",
+      logo: "https://plchldr.co/i/130x50?&bg=85bea2&fc=442233&text=Coming Soon",
       url: "#",
     },
   ],
@@ -105,17 +105,17 @@ const all_sponsors = [
   [
     {
       name: "Name",
-      logo: "https://plchldr.co/i/130x50?&bg=85bea2&fc=ffffff&text=Coming Soon",
+      logo: "https://plchldr.co/i/130x50?&bg=85bea2&fc=442233&text=Coming Soon",
       url: "#",
     },
     {
       name: "Name",
-      logo: "https://plchldr.co/i/130x50?&bg=85bea2&fc=ffffff&text=Coming Soon",
+      logo: "https://plchldr.co/i/130x50?&bg=85bea2&fc=442233&text=Coming Soon",
       url: "#",
     },
     {
       name: "Name",
-      logo: "https://plchldr.co/i/130x50?&bg=85bea2&fc=ffffff&text=Coming Soon",
+      logo: "https://plchldr.co/i/130x50?&bg=85bea2&fc=442233&text=Coming Soon",
       url: "#",
     },
   ]
