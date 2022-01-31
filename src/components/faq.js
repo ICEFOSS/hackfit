@@ -64,7 +64,7 @@ function Each_faq_bar(props) {
         </summary>
 
         <p
-          className="text-sm bg-slate-300 rounded-b p-4 px-6 opacity-95 bg-opacity-50 "
+          className="text-sm bg-slate-300 text-black rounded-b p-4 px-6 opacity-95 bg-opacity-50 "
           style={{ fontFamily: "sans-serif" }}
           dangerouslySetInnerHTML={{ __html: props.answer }}
         >
