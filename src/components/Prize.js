@@ -2,8 +2,7 @@ import React, { Component } from "react";
 export default class Prize extends Component {
   render() {
     return (
-      <section className=" ml-0 md:ml-36"
-        id="Prices">
+      <>
         <div className="text-center pb-12">
           <h1 className="text-5xl md:text-6xl font-heading text-brochwhite">
             Prizes
@@ -33,7 +32,7 @@ export default class Prize extends Component {
             prize_description="For the best presentation of the project"
           />
         </div>
-      </section>
+      </>
     );
   }
 }

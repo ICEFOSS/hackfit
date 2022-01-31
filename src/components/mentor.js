@@ -8,8 +8,7 @@ export default class Mentor extends Component {
 
   render() {
     return (
-      <section className="ml-0 md:ml-36"
-        id='Mentors'>
+      <>
         <div className=' py-8'>
           <div className="py-4">
             {/*Acm directives contact*/}
@@ -30,7 +29,7 @@ export default class Mentor extends Component {
             </div>
           </div>
         </div>
-      </section>
+      </>
     )
   }
 }

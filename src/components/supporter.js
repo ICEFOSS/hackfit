@@ -1,41 +1,37 @@
 import { icefoss, acm, ffsc } from './constants'
 export default function Supported() {
   return (
+    <div className=" mx-auto px-5 lg:px-20">
+      <h1 className="mx-6 font-pixe text-center text-brochwhite text-5xl md:text-6xl sm:text-center sm:mx-0">
+        Supporters
+      </h1>
+      <div className="mt-16 justify-center text-gray-700 flex flex-wrap flex-row md:flex-row-mx-1 gap-5">
 
-    <section className="ml-0 md:ml-36"
-      id="Supporters">
-      <div className=" mx-auto px-5 lg:px-20">
-        <h1 className="mx-6 font-pixe text-center text-brochwhite text-5xl md:text-6xl sm:text-center sm:mx-0">
-          Supporters
-        </h1>
-        <div className="mt-16 justify-center text-gray-700 flex flex-wrap flex-row md:flex-row-mx-1 gap-5">
+        <Supporters_each_section
+          supporter="ACM FISAT"
+          title="ACM FISAT"
+          description="ACM, The Association for Computing Machinery, the world's largest educational and scientific computing society, delivers resources that advance computing as a science and a profession. ACM brings together computing educators, researchers, and professionals to inspire dialogue, share resources, and address the field's challenges. "
+          link="#"
+          svg={acm}
+        />
 
-          <Supporters_each_section
-            supporter="ACM FISAT"
-            title="ACM FISAT"
-            description="ACM, The Association for Computing Machinery, the world's largest educational and scientific computing society, delivers resources that advance computing as a science and a profession. ACM brings together computing educators, researchers, and professionals to inspire dialogue, share resources, and address the field's challenges. "
-            link="#"
-            svg={acm}
-          />
+        <Supporters_each_section
+          supporter="ICEFOSS"
+          title="ICEFOSS"
+          description="ICEFOSS is a Free Software Conference organized by FISAT Free Software Cell (FFSC). ICEFOSS 2022, scheduled on March 3,4 - 2022 includes Workshops covering different aspects of Free Software. The purpose of ICEFOSS is to promote and encourage the use of free and open-source software among enthusiasts."
+          link="#"
+          svg={icefoss}
+        />
+        <Supporters_each_section
+          supporter="FFSC"
+          title="FFSC"
+          description="FISAT Free Software Cell (FFSC), Federal Institute of Science and Technology (FISAT) was established in 2002 by Federal Bank Officers' Association Educational Society (FBOAES). The institution is accredited by NAAC with 'A' Grade. Five B.Tech branches are accredited by NBA and the institution also received the coveted ISO 9001:2015 certification."
+          link="#"
+          svg={ffsc}
+        />
 
-          <Supporters_each_section
-            supporter="ICEFOSS"
-            title="ICEFOSS"
-            description="ICEFOSS is a Free Software Conference organized by FISAT Free Software Cell (FFSC). ICEFOSS 2022, scheduled on March 3,4 - 2022 includes Workshops covering different aspects of Free Software. The purpose of ICEFOSS is to promote and encourage the use of free and open-source software among enthusiasts."
-            link="#"
-            svg={icefoss}
-          />
-          <Supporters_each_section
-            supporter="FFSC"
-            title="FFSC"
-            description="FISAT Free Software Cell (FFSC), Federal Institute of Science and Technology (FISAT) was established in 2002 by Federal Bank Officers' Association Educational Society (FBOAES). The institution is accredited by NAAC with 'A' Grade. Five B.Tech branches are accredited by NBA and the institution also received the coveted ISO 9001:2015 certification."
-            link="#"
-            svg={ffsc}
-          />
-
-        </div>
       </div>
-    </section>
+    </div>
   );
 }
 
