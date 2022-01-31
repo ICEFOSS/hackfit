@@ -6,11 +6,11 @@ export default function Landing() {
         <div className="px-10 sm:pl-20 md:pl-48 lg:pl-80 flex flex-col w-full">
           <h1 className="text-7xl font-semibold font-sans mb-6 text-center z-50">
 
-            <span className="text-rose-600 shadow-sm justify-start flex text-7xl">HACKFIT</span>
-            <span className="text-white text-xs font-mono justify-start flex">An ICEFOSS initiative</span>
-            <span className="flex justify-start text-5xl font-thin mt-8">3RD - 5TH MAR 2022</span>
+            <span className="text-rose-600 shadow-sm  justify-center sm:justify-start flex text-7xl md:text-8xl lg:text-9xl">HACKFIT</span>
+            <span className="text-white text-xs md:text-sm font-mono justify-center sm:justify-start flex">An ICEFOSS initiative</span>
+            <span className="flex justify-start text-5xl md:text-6xl font-thin mt-8">3RD - 5TH MAR 2022</span>
           </h1>
-          <p className="text-lg shadow-sm justify-start max-w-lg z-50 flex">
+          <p className="text-lg lg:text-xl shadow-sm justify-start max-w-lg z-50 flex">
             HACKFIT is a 36-hour Hackathon conducted as part of ICEFOSS 2022 commencing from the 3rd & 4th of March 2022.
           </p>
           <div className="w-full justify-start flex">
