@@ -4,17 +4,17 @@ export default function Landing() {
     <section className="ml-0">
       <div className="context">
         <div className="px-10 sm:pl-20 md:pl-48 lg:pl-80 flex flex-col w-full">
-          <h1 className="text-7xl font-semibold font-sans mb-6 text-center z-50">
+          <h1 className="text-7xl font-semibold font-sans mb-6 text-center z-40">
 
             <span className="text-rose-600 shadow-sm  justify-center sm:justify-start flex text-7xl md:text-8xl lg:text-9xl">HACKFIT</span>
             <span className="text-white text-xs md:text-sm font-mono justify-center sm:justify-start flex">An ICEFOSS initiative</span>
             <span className="flex justify-start text-5xl md:text-6xl font-thin mt-8">3RD - 5TH MAR 2022</span>
           </h1>
-          <p className="text-lg lg:text-xl shadow-sm justify-start max-w-lg z-50 flex">
+          <p className="text-lg lg:text-xl shadow-sm justify-start max-w-lg z-40 flex">
             HACKFIT is a 36-hour Hackathon conducted as part of ICEFOSS 2022 commencing from the 3rd & 4th of March 2022.
           </p>
           <div className="w-full justify-start flex">
-            <button onClick={() => (document.getElementById("PStatement").scrollIntoView())} className="mt-10 px-10 py-3 bg-red-600 text-lg text-white w-44 text-center rounded-md shadow-2xl z-50">
+            <button onClick={() => (document.getElementById("PStatement").scrollIntoView())} className="mt-10 px-10 py-3 bg-red-600 text-lg text-white w-44 text-center rounded-md shadow-2xl z-40">
               REGISTER NOW
             </button>
           </div>
