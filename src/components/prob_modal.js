@@ -5,7 +5,7 @@ import "../styles/Modal.css";
 Modal.setAppElement("#root");
 
 
-const form_link = "";
+const form_link = "https://forms.gle/YonV7YehKwU8Y3Hn9";
 
 const headings = [
     `App for screening the possible mental health issues in adolescents`,
