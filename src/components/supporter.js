@@ -65,13 +65,13 @@ function Supporters_each_section(props) {
                 {props.title}
               </h2>
 
-              <p className="mt-4 lg:text-md">
+              <p className="mt-4 lg:text-md mb-8">
                 {props.description}
               </p>
 
-              {/* <a href={props.link} target="_blank"> */}
+              {/* <a href={props.link} target="_blank">
               <p className="mt-8 font-bold">Read more</p>
-              {/* </a> */}
+              </a> */}
             </div>
           </div>
         </a>

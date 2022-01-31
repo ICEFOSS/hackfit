@@ -12,10 +12,10 @@ export default function Footer() {
                                 <div className="Venue m-2">
                                     <h3 className="text-white text-lg font-normal underline underline-offset-4 pb-2">Mobile</h3>
                                     <p className="max-w-xs mx-auto text-xs font-mono text-gray-200">
-                                        +91 97453 44089
+                                        Basil : +91 97453 44089
                                     </p>
                                     <p className="max-w-xs mx-auto text-xs font-mono text-gray-200">
-                                        +91 82818 95254
+                                        Paul : +91 82818 95254
                                     </p>
                                 </div>
                             </div>
