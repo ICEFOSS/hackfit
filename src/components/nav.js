@@ -59,7 +59,7 @@ const SidenavPage = () => {
       </div>
       <Sidenav open={open} toggle={toggle}>
         {Heading.map((item, key) => (
-          <SidenavItem href={`#${item.name}`} key={key}>
+          <SidenavItem href={`#${item.name}`} key={key} setOpen={setOpen}>
             <div className="flex flex-wrap flex-col justify-center items-center">
               {/*  bg-black w-full rounded-xl px-2 bg-opacity-20 */}
               <svg
@@ -125,9 +125,9 @@ function Sidenav({ open, toggle, children }) {
   );
 }
 
-function SidenavItem({ children, href }) {
+function SidenavItem({ children, href, setOpen }) {
   return (
-    <a href={href} className={style.item}>
+    <a href={href} className={style.item} onClick={() => setOpen(false)}>
       {children}
     </a>
   );
