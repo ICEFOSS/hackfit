@@ -2,17 +2,28 @@ export default function Schedule() {
   return (
     <>
       <div className=" text-white">
-        <h1 className="text-center text-white text-5xl md:text-6xl sm:mx-0">Schedule</h1>
+        <h1 className="text-center text-white text-5xl md:text-6xl sm:mx-0">
+          Schedule
+        </h1>
         <div className="container mx-auto flex flex-col justify-evenly items-start md:flex-row">
           <div className="ml-0 lg:w-2/3 sticky">
             <div className="container mx-auto w-full h-full">
               <div className="relative wrap overflow-hidden p-6 h-full">
                 <div
                   className="border-2-2 border-yellow-555 absolute h-full border"
-                  style={{ right: '50%', border: '2px solid #FFC100', borderRadius: '1%' }}></div>
+                  style={{
+                    right: "50%",
+                    border: "2px solid #FFC100",
+                    borderRadius: "1%",
+                  }}
+                ></div>
                 <div
                   className="border-2-2 border-yellow-555 absolute h-full border"
-                  style={{ left: '50%', border: '2px solid #FFC100', borderRadius: '1%' }}
+                  style={{
+                    left: "50%",
+                    border: "2px solid #FFC100",
+                    borderRadius: "1%",
+                  }}
                 ></div>
                 <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
                   <div className="order-1 w-5/12"></div>
@@ -58,7 +69,7 @@ export default function Schedule() {
                     </h4>
                     <p className="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
                       The ultimate genius will be revealed by our judging panel
-                      on 10th May, 2021 and the resukts will be announced on the
+                      on 10th May, 2021 and the results will be announced on the
                       whatsapp groups and will be mailed to you.
                     </p>
                   </div>
