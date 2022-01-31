@@ -49,6 +49,7 @@ const SidenavPage = () => {
         ) : (
           <button
             type="button"
+            title="navbar"
             aria-disabled={open}
             disabled={open}
             onClick={toggle}
