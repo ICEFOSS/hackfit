@@ -4,66 +4,8 @@ import "../styles/Modal.css";
 
 Modal.setAppElement("#root");
 
-export default function ProbModal(props) {
-    const [modalIsOpen, setIsOpen] = React.useState(false);
-    const [IsGoingToRegister, setIsGoingToRegister] = React.useState(false);
-    function toggleIsGoingToRegister() {
-        if (IsGoingToRegister) {
-            setIsGoingToRegister(false);
-            return document.getElementById('About').scrollIntoView();
-        }
-    }
-    function greenToggle() {
-        setIsOpen(false);
-        setIsGoingToRegister(true);
-    }
 
-    return (
-        <div className="App text-white mt-8">
-            <button onClick={() => setIsOpen(true)}>Read more</button>
-            <Modal
-                isOpen={modalIsOpen}
-                onRequestClose={() => setIsOpen(false)}
-                overlayClassName={{
-                    base: "overlay-base",
-                    afterOpen: "overlay-after",
-                    beforeClose: "overlay-before"
-                }}
-                className={{
-                    base: "content-base",
-                    afterOpen: "content-after",
-                    beforeClose: "content-before"
-                }}
-                onAfterClose={toggleIsGoingToRegister}
-                closeTimeoutMS={500}
-            >
-                <div className="flex flex-col w-full mx-4 items-center justify-between h-full  text-white">
-                    <div className="mt-4 w-full">
-                        <div className="flex flex-row justify-between font-bold">
-                            <span>{headings[props.id]}</span>
-                            <span className="">
-                                <button onClick={() => setIsOpen(false)} className="bg-red-500 border-brochblack border-2 w-4 h-4 rounded-full mb-4"></button>
-                            </span>
-                        </div>
-                        <hr></hr>
-                    </div>
-                    <div className="flex justify-center items-start h-full my-4 overflow-y-scroll">
-                        {contents[props.id]}
-                    </div>
-                    <div className="mb-4 w-full">
-                        <hr></hr>
-                        <div className="flex flex-row flex-wrap justify-end">
-
-                            <button onClick={() => setIsOpen(false)} className="border-2 w-fit bg-red-400 px-2 mt-4 border-brochblack text-brochblack font-bold rounded-sm">Close</button>
-                            <button onClick={greenToggle} className="border-2 ml-4 w-fit bg-green-600 border-gray-700 text-gray-700 font-bold px-2 mt-4 rounded-sm">Register  </button>
-                        </div>
-                    </div>
-                </div>
-
-            </Modal>
-        </div>
-    );
-}
+const forms_link = ["", "", ""];
 
 const headings = [
     `App for screening the possible mental health issues in adolescents`,
@@ -88,3 +30,66 @@ Consider the possibility of a drug peddler in your neighbourhood.You see him sup
 
 It is proposed to develop a mobile application that would allow the public to anonymously report drug trafficking.Then, people will be able to report such cases, and the number of drug trafficking cases will eventually be reduced substantially. There is a chance that there may be many false alarms if the system is anonymous, and some of them may be intentional.Therefore by utilizing machine learning models, the solution should be able to filter out the false alarms.Ideally, users should be able to upload any relevant information about the finding and it should be feasible for them to use it across languages.
 `];
+
+export default function ProbModal(props) {
+    const [modalIsOpen, setIsOpen] = React.useState(false);
+    // const [IsGoingToRegister, setIsGoingToRegister] = React.useState(false);
+    // function toggleIsGoingToRegister() {
+    //     if (IsGoingToRegister) {
+    //         setIsGoingToRegister(false);
+    //         return document.getElementById('About').scrollIntoView();
+    //     }
+    // }
+    // function greenToggle() {
+    //     setIsOpen(false);
+    //     setIsGoingToRegister(true);
+    // }
+
+    return (
+        <div className="App text-white mt-8">
+            <button onClick={() => setIsOpen(true)}>Register</button>
+            <Modal
+                isOpen={modalIsOpen}
+                onRequestClose={() => setIsOpen(false)}
+                overlayClassName={{
+                    base: "overlay-base",
+                    afterOpen: "overlay-after",
+                    beforeClose: "overlay-before"
+                }}
+                className={{
+                    base: "content-base",
+                    afterOpen: "content-after",
+                    beforeClose: "content-before"
+                }}
+                // onAfterClose={toggleIsGoingToRegister}
+                closeTimeoutMS={500}
+            >
+                <div className="flex flex-col w-full mx-4 items-center justify-between h-full  text-white">
+                    <div className="mt-4 w-full">
+                        <div className="flex flex-row justify-between font-bold">
+                            <span>{headings[props.id]}</span>
+                            <span className="">
+                                <button onClick={() => setIsOpen(false)} className="bg-red-500 border-brochblack border-2 w-4 h-4 rounded-full mb-4"></button>
+                            </span>
+                        </div>
+                        <hr></hr>
+                    </div>
+                    <div className="flex justify-center items-start h-full my-4 overflow-y-scroll">
+                        {contents[props.id]}
+                    </div>
+                    <div className="mb-4 w-full">
+                        <hr></hr>
+                        <div className="flex flex-row flex-wrap justify-end">
+
+                            <button onClick={() => setIsOpen(false)} className="border-2 w-fit bg-red-400 px-2 mt-4 border-brochblack text-brochblack font-bold rounded-sm">Close</button>
+                            <a href={`${forms_link[props.id]}`} target="_blank">
+                                <button onClick={() => setIsOpen(false)} className="border-2 ml-4 w-fit bg-green-600 border-gray-700 text-gray-700 font-bold px-2 mt-4 rounded-sm">Register  </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </Modal>
+        </div>
+    );
+}
