@@ -4,7 +4,7 @@ export default function Landing() {
     <section className="ml-0">
       <div className="context">
         <div className="px-10 sm:pl-20 md:pl-48 lg:pl-80 flex flex-col w-full">
-          <h1 className="text-7xl font-semibold font-sans mb-6 text-center">
+          <h1 className="text-7xl font-semibold font-sans mb-6 text-center z-20">
             <span className="text-rose-600 shadow-sm  justify-center sm:justify-start flex text-7xl md:text-8xl lg:text-9xl">
               HACKFIT
             </span>
@@ -15,7 +15,7 @@ export default function Landing() {
               3RD - 5TH MAR 2022
             </span>
           </h1>
-          <p className="text-lg lg:text-xl shadow-sm justify-start max-w-lg flex">
+          <p className="text-lg lg:text-xl shadow-sm justify-start max-w-lg flex z-20">
             HACKFIT is a 36-hour Hackathon conducted as part of ICEFOSS 2022
             commencing from the 3rd & 4th of March 2022.
           </p>
