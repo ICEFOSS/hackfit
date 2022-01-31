@@ -12,21 +12,21 @@ export default class Prize extends Component {
         <div className="flex flex-wrap flex-row gap-6 justify-center mx-4 xs:mx-auto">
 
           <Prize_card
-            cash=". . ."
+            cash="25,000"
             prize="gold"
             text_color="text-yellow-400"
             prize_name="1st Prize"
             prize_description="For the best presentation of the project"
           />
           <Prize_card
-            cash=". . ."
+            cash="15,000"
             prize="silver"
             text_color="text-gray-300"
             prize_name="2nd Prize"
             prize_description="For the best presentation of the project"
           />
           <Prize_card
-            cash=". . ."
+            cash="10,000"
             prize="bronze"
             text_color="text-amber-500"
             prize_name="3rd Prize"
@@ -48,10 +48,10 @@ function Prize_card(props) {
             src={`/assets/${props.prize}-cup.gif`}
             alt="placholder"
           />
-          <p className="text-center text-white font-bold text-3xl  sm:text-4xl md:text-5xl p-2"><span className="text-green-600 mr-2">₹</span>
+          <p className="text-center text-white text-3xl  sm:text-4xl md:text-5xl p-2"><span className="text-green-600 mr-2 font-bold">₹</span>
             {props.cash}
           </p>
-          <p className={`text-center ${props.text_color} font-bold text-xl sm:text-2xl`}>
+          <p className={`text-center ${props.text_color} text-xl sm:text-2xl`}>
             {props.prize_name}
           </p>
         </div>
