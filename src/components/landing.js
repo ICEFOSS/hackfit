@@ -24,7 +24,7 @@ export default function Landing() {
               onClick={() =>
                 document.getElementById("PStatement").scrollIntoView()
               }
-              className="mt-10 px-10 py-3 bg-red-600 text-lg text-white w-44 text-center rounded-md shadow-2xl"
+              className="mt-10 px-10 py-3 bg-red-600 text-lg text-white w-44 text-center rounded-md shadow-2xl z-20"
             >
               REGISTER NOW
             </button>
