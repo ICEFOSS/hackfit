@@ -65,7 +65,7 @@ function Supporters_each_section(props) {
                 {props.title}
               </h2>
 
-              <p className="mt-4 lg:text-md">
+              <p className="mt-4 lg:text-md mb-8">
                 {props.description}
               </p>
 
