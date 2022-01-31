@@ -5,7 +5,7 @@ import "../styles/Modal.css";
 Modal.setAppElement("#root");
 
 
-const forms_link = ["", "", ""];
+const form_link = "";
 
 const headings = [
     `App for screening the possible mental health issues in adolescents`,
@@ -82,7 +82,7 @@ export default function ProbModal(props) {
                         <div className="flex flex-row flex-wrap justify-end">
 
                             <button onClick={() => setIsOpen(false)} className="border-2 w-fit bg-red-400 px-2 mt-4 border-brochblack text-brochblack font-bold rounded-sm">Close</button>
-                            <a href={`${forms_link[props.id]}`} target="_blank">
+                            <a href={`${form_link}`} target="_blank">
                                 <button onClick={() => setIsOpen(false)} className="border-2 ml-4 w-fit bg-green-600 border-gray-700 text-gray-700 font-bold px-2 mt-4 rounded-sm">Register  </button>
                             </a>
                         </div>
