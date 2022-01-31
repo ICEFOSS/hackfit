@@ -44,18 +44,22 @@ const SidenavPage = () => {
   return (
     <>
       <div className="flex justify-end">
-        <button
-          type="button"
-          aria-disabled={open}
-          disabled={open}
-          onClick={toggle}
-          className="text-white focus:outline-none m-1.5 rounded px-6 py-2 font-medium bg-brochblack fixed md:hidden z-50"
-        >
-          <FontAwesomeIcon
-            className="flex justify-center items-center"
-            icon={faBars}
-          />
-        </button>
+        {open ? (
+          ""
+        ) : (
+          <button
+            type="button"
+            aria-disabled={open}
+            disabled={open}
+            onClick={toggle}
+            className="text-white focus:outline-none m-1.5 rounded px-6 py-2 font-medium bg-brochblack fixed md:hidden z-50"
+          >
+            <FontAwesomeIcon
+              className="flex justify-center items-center"
+              icon={faBars}
+            />
+          </button>
+        )}
       </div>
       <Sidenav open={open} toggle={toggle}>
         {Heading.map((item, key) => (
@@ -97,17 +101,17 @@ const style = {
 function Sidenav({ open, toggle, children }) {
   const ref = React.useRef(null);
 
-  //close on click outside
-  React.useEffect(() => {
-    const handleOutsideClick = (event) => {
-      if (!ref.current?.contains(event.target)) {
-        if (!open) return;
-        toggle(false);
-      }
-    };
-    window.addEventListener("mousedown", handleOutsideClick);
-    return () => window.removeEventListener("mousedown", handleOutsideClick);
-  }, [open, ref]);
+  // //close on click outside
+  // React.useEffect(() => {
+  //   const handleOutsideClick = (event) => {
+  //     if (!ref.current?.contains(event.target)) {
+  //       if (!open) return;
+  //       toggle(false);
+  //     }
+  //   };
+  //   window.addEventListener("mousedown", handleOutsideClick);
+  //   return () => window.removeEventListener("mousedown", handleOutsideClick);
+  // }, [open, ref]);
 
   return (
     <div className="h-screen flex items-center fixed z-50">
