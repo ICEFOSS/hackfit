@@ -3,8 +3,7 @@ import Speaker_card from "./speaker_card";
 export default function Speaker() {
     return (
 
-        <section className="ml-0 md:ml-36"
-            id="Speakers">
+        <>
             <div className=" text-white py-8">
                 <h1 className="mx-6 my-1 md:my-2 lg:my-4 font-pixe text-center text-white text-5xl md:text-6xl sm:mx-0">
                     Speakers
@@ -33,7 +32,7 @@ export default function Speaker() {
                 </div >
 
             </div>
-        </section>
+        </>
     );
 }
 

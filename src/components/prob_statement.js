@@ -5,44 +5,41 @@ import ProbModal from "./prob_modal";
 export default function ProbState() {
     return (
 
-        <section className="ml-0 md:ml-36"
-            id="PStatement">
-            <div className=" mx-auto px-5 lg:px-20">
-                <h1 className="mx-6 font-pixe text-center text-brochwhite text-5xl md:text-6xl sm:text-center sm:mx-0">
-                    Problem Statement
-                </h1>
-                <div className="mt-16 justify-center text-gray-200 flex flex-wrap flex-row md:flex-row-mx-1 gap-5">
+        <div className=" mx-auto px-5 lg:px-20">
+            <h1 className="mx-6 font-pixe text-center text-brochwhite text-5xl md:text-6xl sm:text-center sm:mx-0">
+                Problem Statement
+            </h1>
+            <div className="mt-16 justify-center text-gray-200 flex flex-wrap flex-row md:flex-row-mx-1 gap-5">
 
-                    <ProblemEachSection
-                        id='0'
-                        title="Mental Health issues in Adolescents"
-                        description={`Adolescence can be a risky period for mental health problems because teenagers are going through many changes and challenges in a short period. Globally, one in seven 10-19 year-olds experiences ...`}
-                        link="#"
-                        svg={mental_health_issues}
-                    // function={this.scrollToAbout}
-                    />
+                <ProblemEachSection
+                    id='0'
+                    title="Mental Health issues in Adolescents"
+                    description={`Adolescence can be a risky period for mental health problems because teenagers are going through many changes and challenges in a short period. Globally, one in seven 10-19 year-olds experiences ...`}
+                    link="#"
+                    svg={mental_health_issues}
+                // function={this.scrollToAbout}
+                />
 
-                    <ProblemEachSection
-                        id='1'
-                        title="Stay Fit with Social distancing"
-                        description={`In the COVID -19 pandemic situation ,where all of us were forced into our homes and had to quit working out in gyms and public spaces , maintaining workout routines became difficult .And in such a situation, staying fit and eating healthy is ...`}
-                        link="#"
-                        svg={stayfit_with_social_distancing}
-                        top='true'
-                    // function={this.scrollToAbout}
-                    />
-                    <ProblemEachSection
-                        id='2'
-                        title="Report Drug Trafficking Anonymously"
-                        description={`Due to its proximity to two of the "three key production areas" for opium, India is facing the illegal drugs crisis. But cross-border trafficking explains only part of the illicit drugs trade that runs ...`}
-                        link="#"
-                        svg={report_drug_trafficking}
-                    // function={this.}
-                    />
+                <ProblemEachSection
+                    id='1'
+                    title="Stay Fit with Social distancing"
+                    description={`In the COVID -19 pandemic situation ,where all of us were forced into our homes and had to quit working out in gyms and public spaces , maintaining workout routines became difficult .And in such a situation, staying fit and eating healthy is ...`}
+                    link="#"
+                    svg={stayfit_with_social_distancing}
+                    top='true'
+                // function={this.scrollToAbout}
+                />
+                <ProblemEachSection
+                    id='2'
+                    title="Report Drug Trafficking Anonymously"
+                    description={`Due to its proximity to two of the "three key production areas" for opium, India is facing the illegal drugs crisis. But cross-border trafficking explains only part of the illicit drugs trade that runs ...`}
+                    link="#"
+                    svg={report_drug_trafficking}
+                // function={this.}
+                />
 
-                </div>
             </div>
-        </section>
+        </div>
     );
 }
 

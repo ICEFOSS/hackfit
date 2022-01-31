@@ -2,8 +2,7 @@ import React, { Component } from "react";
 export default class Prize extends Component {
   render() {
     return (
-      <section className=" ml-0 md:ml-36"
-        id="Prices">
+      <>
         <div className="text-center pb-12">
           <h1 className="text-5xl md:text-6xl font-heading text-brochwhite">
             Prizes
@@ -33,7 +32,7 @@ export default class Prize extends Component {
             prize_description="For the best presentation of the project"
           />
         </div>
-      </section>
+      </>
     );
   }
 }
@@ -41,7 +40,7 @@ export default class Prize extends Component {
 function Prize_card(props) {
   return (
     <>
-      <div className="transform max-w-sm bg-brochblack shadow-lg overflow-hidden flex flex-col md:flex-row transition duration-1000 hover:scale-105 md:pb-2 w-80 sm:w-72 md:w-72 lg:w-[21rem] rounded-lg bg-opacity-40">
+      <div className="transform max-w-sm bg-brochblack shadow-lg overflow-hidden flex flex-col md:flex-row transition-all duration-700 hover:scale-105 md:pb-2 w-80 sm:w-72 md:w-72 lg:w-[21rem] rounded-lg bg-opacity-40 shadow-black hover:shadow-none">
         <div className="w-full h-56 sm:h-64 md:h-68 lg:h-80">
           <img
             className="p-3 w-28 sm:w-32 lg:w-40 mx-auto"
