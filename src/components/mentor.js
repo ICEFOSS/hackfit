@@ -40,7 +40,7 @@ function Mentor_each_section(props) {
     <>
       <div className="ml-0 py-2 col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3 self-center" key={props.item.key}>
         <div
-          className="sm:pt-2 md:pt-0 mx-4 text-center justify-between aspect-auto main-test hover:opacity-90"
+          className="sm:pt-2 md:pt-0 mx-4 text-center justify-between aspect-auto main-test hover:opacity-90  shadow-black shadow-md hover:shadow-inner"
           style={{
             backgroundImage: `url(${props.item.image})`,
           }}

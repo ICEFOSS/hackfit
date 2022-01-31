@@ -1,13 +1,13 @@
 export default function Speaker_card(props) {
   return (
     <>
-      <div className="max-w-sm bg-gray-200 bg-opacity-70 rounded-2xl  border border-gray-200 my-1 mx-1 w-80 sm:w-72 md:w-72 lg:w-[21rem]">
+      <div className="max-w-sm bg-gray-200 bg-opacity-70 rounded-2xl  border border-gray-200 my-1 mx-1 w-80 sm:w-72 md:w-72 lg:w-[21rem] shadow-sm transition-shadow duration-1000 hover:shadow-2xl shadow-black">
         <div className="col-span-12 md:col-span-6 lg:col-span-3 xl:col-span-2 self-center">
-          <img className="my-3 w-40 md:w-48 rounded-full shadow-lg mx-auto" src={props.profile_img} alt="Bonnie image" />
+          <img className="my-3 w-40 md:w-48 rounded-full  shadow-black shadow-md transition-shadow duration-700 hover:shadow-2xl mx-auto" src={props.profile_img} alt="Bonnie image" />
           <h3 className="text-3xl font-medium text-gray-900 text-center">{props.name}</h3>
           <h4 className="text-lg text-gray-900 text-center">{props.designation}</h4>
         </div>
-        <p className="flex flex-wrap flex-row justify-center pb-0">
+        <p className="flex flex-wrap flex-row justify-center pb-0 ">
           <Linkedin_svg />
           <p className="mx-2" />
           <Github_svg />
@@ -96,7 +96,7 @@ export function Github_svg(props) {
     </svg>
   )
 }
- export function Instagram_svg(props){
+export function Instagram_svg(props) {
   let svg_active_style = `visible`;
   if (props.isActive == false) {
     svg_active_style = 'invisible';
@@ -154,9 +154,9 @@ export function Github_svg(props) {
       ></path>
     </svg>
   );
- }
+}
 
-export function Facebook_svg(props){
+export function Facebook_svg(props) {
   let svg_active_style = `visible`;
   if (props.isActive == false) {
     svg_active_style = 'invisible';
