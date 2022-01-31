@@ -47,7 +47,7 @@ export default function ProbModal(props) {
 
     return (
         <div className="App text-white mt-8">
-            <button onClick={() => setIsOpen(true)}>Register</button>
+            <button onClick={() => setIsOpen(true)}>Read more</button>
             <Modal
                 isOpen={modalIsOpen}
                 onRequestClose={() => setIsOpen(false)}
