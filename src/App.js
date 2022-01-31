@@ -67,7 +67,7 @@ const App = () => {
         <div className="spacer layer1" />
       </LazyLoad>
       <section className='from-brochgreen to-green-600 bg-gradient-to-t'
-        id="Prices">
+        id="Prizes">
         <LazyLoad height={300} offset={300} once>
           <section className=" ml-0 md:ml-36">
             <Prizes />
