@@ -14,6 +14,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 99999;
 }
 
 .overlay-after {
@@ -88,12 +89,6 @@ html {
     }
 
     .content-after {
-        width: 60%;
-    }
-} 
-
-@media (min-width:1024px) {
-    .content-after {
         width: 70%;
     }
-}
+} 
