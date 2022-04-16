@@ -1691,6 +1691,7 @@ section {
 /* miscellanious section */
 
 #vertail-img{
+  padding-top: 2%;
   margin: 1rem;
   filter: invert(1);
 }
