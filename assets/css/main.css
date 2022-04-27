@@ -15,6 +15,15 @@
   scroll-behavior: smooth;
 }
 
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 2em;
+  column-gap: 10em;
+}
+
 a {
   color: var(--color-links);
   text-decoration: none;
