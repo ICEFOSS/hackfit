@@ -14,13 +14,12 @@
 :root {
   scroll-behavior: smooth;
 }
-
 .flex{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  row-gap: 2em;
+  row-gap: 1em;
   column-gap: 10em;
 }
 
@@ -1452,7 +1451,7 @@ section {
   transition: 0.6s;
 }
 .services .details {
-  padding: 50px 30px;
+  padding: 20px 20px;
   margin: -100px 30px 0 30px;
   transition: all ease-in-out 0.3s;
   background: var(--color-white);
